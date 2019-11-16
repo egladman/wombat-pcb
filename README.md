@@ -1,3 +1,3 @@
 # The Wombat PCB
 
-![Wombat Layout](https://raw.githubusercontent.com/egladman/wombat-pcb/revb/img/wombat.png)
+![Wombat LE Layout](img/wombat.png)
