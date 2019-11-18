@@ -2655,8 +2655,6 @@ Text Label 6650 7650 0    50   ~ 0
 bk_GND
 Text Label 7650 4850 2    50   ~ 0
 bk_GND
-Text Label 10050 4700 2    50   ~ 0
-bk_GND
 Text Label 8250 5650 2    50   ~ 0
 col_8
 Text Label 8250 5750 2    50   ~ 0
