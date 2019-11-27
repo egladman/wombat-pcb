@@ -7,6 +7,7 @@
 - Dedicated bracket keys (i.e. `[`, `]`). I'm a software engineer and I find these keys invaluable.
 - HHKB style arrow keys. I've become super fond of this layout ever since owning my first HHKB.
 - Non-fullsize space bar. I find a standard `6.25u` (or god forbid anything larger) to be a waste of space. A little part of me dies each time I see a `7u` spacebar on a 40%.
+- Case friendly design. By extending the header pins from the board we're able to make the female usb port flush with cases. 
 - Side removable cable. I typicallly use my 40% boards when I'm using my laptop. By having the usb cable connect on the left, I'm able to push the keyboard up against my laptop saving valuable space. Sorry left handers :frowning:
 - MX/Alps compatibility. It's so easy to support Alps, why not...
 - Pro Micro compatability. They're cheap and ubiquitous; headers are infintely easier to solder than SMT for a novice.
