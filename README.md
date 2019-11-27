@@ -1,5 +1,7 @@
 # The Wombat PCB
 
+The Wombat is my personal 40% keyboard that I've slowly refined over the years.
+
 ### Project Goals
 
 - Standard staggered row. I see so many mis-aligned 40% keyboards, I have no clue how people can effectively type on them.
@@ -47,7 +49,6 @@
 
 [TMK](https://github.com/egladman/wombat-tmk). The fork is super old, so I still need to pull in the latest changes.
 
-### Layout
+### License
 
-todo
-
+[CERN Open Hardware Licence v1.2 ](https://github.com/egladman/wombat-pcb/blob/revc/LICENSE)
