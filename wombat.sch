@@ -2829,28 +2829,11 @@ F 3 "~" H 700 3950 50  0001 C CNN
 	1    700  3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 5E631845
-P 700 3300
-F 0 "J2" H 618 2975 50  0000 C CNN
-F 1 "Conn_01x03" H 618 3066 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P3.81mm_Drill1.2mm" H 700 3300 50  0001 C CNN
-F 3 "~" H 700 3300 50  0001 C CNN
-	1    700  3300
-	-1   0    0    1   
-$EndComp
 Text Label 700  4100 3    50   ~ 0
 AUX_LED_VCC_A
 Text Label 1350 4100 3    50   ~ 0
 AUX_LED_VCC_B
 Text Label 2000 4100 3    50   ~ 0
-AUX_LED_VCC_C
-Text Label 900  3200 0    50   ~ 0
-AUX_LED_VCC_A
-Text Label 900  3300 0    50   ~ 0
-AUX_LED_VCC_B
-Text Label 900  3400 0    50   ~ 0
 AUX_LED_VCC_C
 $Comp
 L power:+5V #PWR0138
@@ -2871,15 +2854,15 @@ Wire Wire Line
 Wire Wire Line
 	8500 5150 8600 5150
 $Comp
-L power:+5V #PWR0139
-U 1 1 5E680455
-P 900 2750
-F 0 "#PWR0139" H 900 2600 50  0001 C CNN
-F 1 "+5V" V 915 2878 50  0000 L CNN
-F 2 "" H 900 2750 50  0001 C CNN
-F 3 "" H 900 2750 50  0001 C CNN
-	1    900  2750
-	0    1    1    0   
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E676B60
+P 700 2750
+F 0 "J1" H 618 2425 50  0000 C CNN
+F 1 "Conn_01x02" H 618 2516 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 700 2750 50  0001 C CNN
+F 3 "~" H 700 2750 50  0001 C CNN
+	1    700  2750
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0137
@@ -2893,14 +2876,31 @@ F 3 "" H 900 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5E676B60
-P 700 2750
-F 0 "J1" H 618 2425 50  0000 C CNN
-F 1 "Conn_01x02" H 618 2516 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 700 2750 50  0001 C CNN
-F 3 "~" H 700 2750 50  0001 C CNN
-	1    700  2750
+L power:+5V #PWR0139
+U 1 1 5E680455
+P 900 2750
+F 0 "#PWR0139" H 900 2600 50  0001 C CNN
+F 1 "+5V" V 915 2878 50  0000 L CNN
+F 2 "" H 900 2750 50  0001 C CNN
+F 3 "" H 900 2750 50  0001 C CNN
+	1    900  2750
+	0    1    1    0   
+$EndComp
+Text Label 900  3400 0    50   ~ 0
+AUX_LED_VCC_C
+Text Label 900  3300 0    50   ~ 0
+AUX_LED_VCC_B
+Text Label 900  3200 0    50   ~ 0
+AUX_LED_VCC_A
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5E631845
+P 700 3300
+F 0 "J2" H 618 2975 50  0000 C CNN
+F 1 "Conn_01x03" H 618 3066 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P3.81mm_Drill1.2mm" H 700 3300 50  0001 C CNN
+F 3 "~" H 700 3300 50  0001 C CNN
+	1    700  3300
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
