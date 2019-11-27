@@ -20,7 +20,7 @@
 ### Drawbacks
 
 - Keycap compatibility. Good lucking finding properly labeled modifiers. This isn't a deal breaker for me since I mostly type on blanks these days.
-- I'm sure there are other drawbacks, I think I've just become oblibious to them. I've been using this layout for 3+ years without problems.
+- I'm sure there are other drawbacks, I think I've just become blind to them. I've been using this layout for 3+ years without problems.
 
 ### Changes
 
