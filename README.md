@@ -1,9 +1,9 @@
-# The Wombat PCB
+# The Wombat
 
-The Wombat is my personal 40% keyboard that I've slowly refined over the years.
+The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no electrical engineer, so there's definitely room for improvement; I'm just a dude that loves keyboards.
 
 ### Project Goals
-
+- Open source design. It was important that I use an open source EDA too.
 - Standard staggered row. I see so many mis-aligned 40% keyboards, I have no clue how people can effectively type on them.
 - No `2.75u` keys. I find `2.75u` keycaps to wobble too much for everyday typing (even with geniune GMK stabs), therefore the longest key on the Wombat is `2.25u`.
 - Dedicated bracket keys (i.e. `[`, `]`). I'm a software engineer and I find these keys invaluable.
@@ -21,7 +21,7 @@ The Wombat is my personal 40% keyboard that I've slowly refined over the years.
 
 ### Drawbacks
 
-- Keycap compatibility. Good lucking finding properly labeled modifiers. This isn't a deal breaker for me since I mostly type on blanks these days.
+- Lack of keycap compatibility. Good luck finding properly labeled modifiers. This isn't a deal breaker for me since I mostly type on DSA blanks.
 - I'm sure there are other drawbacks, I think I've just become blind to them. I've been using this layout for 3+ years without problems.
 
 ### Changes
@@ -29,13 +29,19 @@ The Wombat is my personal 40% keyboard that I've slowly refined over the years.
 #### Rev C
 
 - Multiple bottom rows now supported.
-- Backlighting (Alphas only)
+- Backlighting Support (Alphas only)
 - Additional pinouts (three LEDs) are broken out for the Proton-C and Elite-C. The Pro Micro can't utilize these pins since we're maxing out the pins. These LEDs are intended to be used as layer indicators.
 
 #### Rev B
 
-- Backlighting
+- Backlighting Support
 - Pro Micro low profile mount. Every `0.1mm` counts.
+
+### Known Issues
+
+#### Rev B
+
+- The LED through holes on top row are slightly misaligned. Be patient when inserting the anode.
 
 ### Layout
 
@@ -44,6 +50,16 @@ The Wombat is my personal 40% keyboard that I've slowly refined over the years.
 ### PCB
 
 ![Back](img/wombat_pcb_back.png)
+
+### Components
+
+- 35 `SMD 0805` 300ohms Resistors. [example](https://www.mouser.com/ProductDetail/panasonic/erj-6enf3000v/?qs=50QC8w71jAu7HdivK4y78A%3D%3D&countrycode=US&currencycode=USD)
+- 46 `SOD-123` 1N4148 Diodes. [example](https://www.mouser.com/ProductDetail/diodes-incorporated/1n4148w-7-f/?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D&countrycode=US&currencycode=USD)
+- 1 Microcontroller
+  - Pro Micro [example](https://www.sparkfun.com/products/12640)
+  - Proton-C [example](https://olkb.com/parts/qmk-proton-c)
+  - Elite-C [example](https://keeb.io/products/elite-c-usb-c-pro-micro-replacement-arduino-compatible-atmega32u4?variant=31151566389342) *I personally haven't tested compatibility, but it should work*
+- Header pins `PTH, 0.1`
 
 ### Firmware
 
