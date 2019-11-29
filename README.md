@@ -42,6 +42,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 #### Rev B
 
 - The LED through holes on top row are slightly misaligned. Be patient when inserting the anode.
+- Incorrect footprint for `D1`. It's solderable, but tricky.
 
 ### Layout
 
