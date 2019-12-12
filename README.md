@@ -44,6 +44,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 
 - The LED through holes on top row are slightly misaligned. Be patient when inserting the anode.
 - Incorrect footprint for `D1`. It's solderable, but tricky.
+- **IMPORTANT:** Ground for backlighting is misrouted. Backlighting/Keyboard is inoperable until ground trace is severed.
 
 ### Layout
 
@@ -51,7 +52,14 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 
 ### PCB
 
-![Back](img/wombat_pcb_back.png)
+*Ignore the dirty residual flux, these pictures were taken mid-build before the boards were cleaned.*
+
+![RevB - Pro Micro](img/revb/IMG_20191212_135200.jpg)
+![RevB - Proton C](img/revb/IMG_20191212_135459.jpg)
+![RevB - Proton C Overhead](img/revb/IMG_20191212_135553.jpg)
+
+![RevB Front - Overhead](img/revb/IMG_20191212_135718.jpg)
+![RevB Back - Kicad](img/wombat_pcb_back.png)
 
 ### Components
 
@@ -65,7 +73,8 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 
 ### Firmware
 
-[TMK](https://github.com/egladman/wombat-tmk). The fork is super old, so I still need to pull in the latest changes.
+[QMK](https://github.com/egladman/qmk_firmware/tree/master/keyboards/wombat).
+[TMK](https://github.com/egladman/wombat-tmk). My TMK fork is super old, and is only here for archival purposes. Use QMK.
 
 ### License
 
