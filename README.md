@@ -22,6 +22,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 ### Drawbacks
 
 - Lack of keycap compatibility. Good luck finding properly labeled modifiers. This isn't a deal breaker for me since I mostly type on DSA blanks.
+- The right shift has been relocated to the bottom row. I prioritized the placement of `FN1`.
 - I'm sure there are other drawbacks, I think I've just become blind to them. I've been using this layout for 3+ years without problems.
 
 ### Changes
