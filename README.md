@@ -70,11 +70,12 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
   - Proton-C [example](https://olkb.com/parts/qmk-proton-c)
   - Elite-C [example](https://keeb.io/products/elite-c-usb-c-pro-micro-replacement-arduino-compatible-atmega32u4?variant=31151566389342) *I personally haven't tested compatibility, but it should work*
 - Header pins `PTH, 0.1`
+- SMD Momentary NO Switch (Reset Button) *I need to look up the part number I used.*
 
 ### Firmware
 
-[QMK](https://github.com/egladman/qmk_firmware/tree/wombat-support/keyboards/wombat).
-[TMK](https://github.com/egladman/wombat-tmk). My TMK fork is super old, and is only here for archival purposes. Use QMK.
+- [QMK](https://github.com/egladman/qmk_firmware/tree/wombat-support/keyboards/wombat).
+- [TMK](https://github.com/egladman/wombat-tmk). My TMK fork is super old, and is only here for archival purposes. Use QMK.
 
 ### License
 
