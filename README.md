@@ -73,7 +73,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 
 ### Firmware
 
-[QMK](https://github.com/egladman/qmk_firmware/tree/master/keyboards/wombat).
+[QMK](https://github.com/egladman/qmk_firmware/tree/wombat-support/keyboards/wombat).
 [TMK](https://github.com/egladman/wombat-tmk). My TMK fork is super old, and is only here for archival purposes. Use QMK.
 
 ### License
