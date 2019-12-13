@@ -16,14 +16,14 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 - Backspace inline with spacebar. I prototyped multiple layouts before ultimately deciding on this. That was three years ago and I've been using this layout ever since.
 - TMK/QMK compatibility.
 - LED backlighting. Only the Alphas are backlight, this is a comprise to retain support for multiple bottom rows.
-- Low profile design. Keyboards built with Pro Micros tend to be thick. By mounting the controller upside we're able to save valuable space. Sure I could forgo the Pro Micro entirely, and solder the chip directly to the board, but I'm lazy.
+- Low profile design. Keyboards built with Pro Micros tend to be thick. By mounting the controller upside we're able to reduce the required clearance to `6mm`.
 - Proton-C and Elite-C compatibility. Due to how we mount the microcontroller upside down, this wasn't supported in Rev A. (Rev A source code has since been lost. RIP)
 
 ### Drawbacks
 
 - Lack of keycap compatibility. Good luck finding properly labeled modifiers. This isn't a deal breaker for me since I mostly type on DSA blanks.
   - The bottom row variant introduced in Rev C partially helps mitigate this issue.
-- The right shift has been relocated to the bottom row. I prioritized the placement of `FN1`.
+- The right shift has been relocated to the bottom row. I prioritized the placement of `FN1` (think HHKB).
 - I'm sure there are other drawbacks, I think I've just become blind to them. I've been using this layout for 3+ years without problems.
 
 ### Changes
@@ -72,6 +72,11 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
   - Elite-C [example](https://keeb.io/products/elite-c-usb-c-pro-micro-replacement-arduino-compatible-atmega32u4?variant=31151566389342) *I personally haven't tested compatibility, but it should work*
 - Header pins `PTH, 0.1`
 - SMD Momentary NO Switch (Reset Button) *I need to look up the part number I used.*
+
+If you choose to make a back from an extra pcb you'll need:
+- 8 M2x6mm female to female threaded spacers
+- 16 M2x4mm screws
+- Blue loctite or M2 lock washers doesn't hurt...
 
 ### Firmware
 
