@@ -751,7 +751,7 @@
   )
 
   (module Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 5DD61BE4)
-    (at 117.836 76.2382 90)
+    (at 117.836 76.8882 90)
     (descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /5E5E0837)
@@ -4221,7 +4221,7 @@
   )
 
   (module Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 5DD63A86)
-    (at 231.526 75.5642 90)
+    (at 231.526 76.8882 90)
     (descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /5E5E080D)
@@ -4677,7 +4677,7 @@
   )
 
   (module Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C8) (tstamp 5DD63948)
-    (at 174.681 76.2382 90)
+    (at 174.681 76.8882 90)
     (descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /5E5E0825)
