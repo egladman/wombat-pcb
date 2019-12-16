@@ -1,0 +1,11 @@
+(module Mouse_Bite_04MM_06 (layer F.Cu) (tedit 5DF7B760)
+  (descr MXALPS)
+  (tags MXALPS)
+  (fp_text reference H104 (at 5.033145 1.94945 180) (layer B.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (fp_text value Mouse_Bite (at 5.334 10.922 180) (layer B.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+  )
+  (pad "" np_thru_hole oval (at 0 0) (size 0.6 0.4) (drill oval 0.6 0.4) (layers *.Cu))
+)
