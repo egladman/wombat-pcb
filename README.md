@@ -47,7 +47,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years.
 
 - The LED through holes on top row are slightly misaligned. Be patient when inserting the anode.
 - Incorrect footprint for `D1`. It's solderable, but tricky.
-- **IMPORTANT:** Ground for backlighting is misrouted. Backlighting/Keyboard is inoperable until ground trace is severed. See red lines.
+- **IMPORTANT:** Ground for backlighting is misrouted. Backlighting/Keyboard is inoperable. See red lines.
 
 ![RevB Trace Cut](img/revb/IMG_20191216_093905_2.jpg)
 
