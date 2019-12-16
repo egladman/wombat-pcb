@@ -3,6 +3,7 @@
 The Wombat is my 40% daily driver that I've been using for 3+ years.
 
 ![RevB Assembled](img/revb/IMG_20191216_093514.jpg)
+![RevC Back - Kicad](img/revc/wombat_pcb_back.png)
 
 ### Project Goals
 - Open source design. It was important that I use an open source EDA too.
@@ -47,7 +48,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years.
 
 - The LED through holes on top row are slightly misaligned. Be patient when inserting the anode.
 - Incorrect footprint for `D1`. It's solderable, but tricky.
-- **IMPORTANT:** Ground for backlighting is misrouted. Backlighting/Keyboard is inoperable. See red lines.
+- **IMPORTANT:** Ground for backlighting is misrouted. Backlighting/Keyboard is inoperable until ground trace is severed. See red lines.
 
 ![RevB Trace Cut](img/revb/IMG_20191216_093905_2.jpg)
 
@@ -64,7 +65,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years.
 ![RevB - Proton C Overhead](img/revb/IMG_20191212_135553.jpg)
 
 ![RevB Front - Overhead](img/revb/IMG_20191212_135718.jpg)
-![RevB Back - Kicad](img/wombat_pcb_back.png)
+
 
 ### Components
 
