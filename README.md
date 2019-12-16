@@ -1,6 +1,8 @@
 # The Wombat
 
-The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no electrical engineer, so there's definitely room for improvement; I'm just a dude that loves keyboards.
+The Wombat is my 40% daily driver that I've been using for 3+ years.
+
+![RevB Assembled](img/revb/IMG_20191216_093514.jpg)
 
 ### Project Goals
 - Open source design. It was important that I use an open source EDA too.
@@ -45,7 +47,9 @@ The Wombat is my 40% daily driver that I've been using for 3+ years. I'm no elec
 
 - The LED through holes on top row are slightly misaligned. Be patient when inserting the anode.
 - Incorrect footprint for `D1`. It's solderable, but tricky.
-- **IMPORTANT:** Ground for backlighting is misrouted. Backlighting/Keyboard is inoperable until ground trace is severed.
+- **IMPORTANT:** Ground for backlighting is misrouted. Backlighting/Keyboard is inoperable until ground trace is severed. See red lines.
+
+![RevB Trace Cut](img/revb/IMG_20191216_093905_2.jpg)
 
 ### Layout
 
