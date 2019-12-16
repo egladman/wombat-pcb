@@ -11,14 +11,14 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -85,7 +85,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -947,7 +947,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DF73264)
-    (fp_text reference D101 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D101 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -986,7 +986,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DFB3A7B)
-    (fp_text reference D102 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D102 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1025,7 +1025,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DFC0CFF)
-    (fp_text reference D103 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D103 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1064,7 +1064,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DFC0D0B)
-    (fp_text reference D104 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D104 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1103,7 +1103,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E057497)
-    (fp_text reference D105 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D105 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1142,7 +1142,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E0574A3)
-    (fp_text reference D106 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D106 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1181,7 +1181,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E0574AF)
-    (fp_text reference D107 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D107 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1220,7 +1220,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E0574BB)
-    (fp_text reference D108 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D108 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1259,7 +1259,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DFEF7FF)
-    (fp_text reference D109 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D109 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1298,7 +1298,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DFEF80B)
-    (fp_text reference D110 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D110 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1337,7 +1337,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DFEF817)
-    (fp_text reference D111 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D111 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1376,7 +1376,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5DFEF823)
-    (fp_text reference D112 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D112 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1454,7 +1454,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E01045D)
-    (fp_text reference D114 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D114 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1493,7 +1493,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E010469)
-    (fp_text reference D115 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D115 (at 0.00015 -2.368542 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1532,7 +1532,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E010475)
-    (fp_text reference D116 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D116 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1571,7 +1571,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E010481)
-    (fp_text reference D117 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D117 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1610,7 +1610,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E01048D)
-    (fp_text reference D118 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D118 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1649,7 +1649,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E010499)
-    (fp_text reference D119 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D119 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1688,7 +1688,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E0104A5)
-    (fp_text reference D120 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D120 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1727,7 +1727,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E0104B1)
-    (fp_text reference D121 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D121 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1766,7 +1766,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E0104BD)
-    (fp_text reference D122 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D122 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1805,7 +1805,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E04461D)
-    (fp_text reference D123 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D123 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1844,7 +1844,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E044629)
-    (fp_text reference D124 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D124 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1883,7 +1883,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E044635)
-    (fp_text reference D125 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D125 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1922,7 +1922,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E044641)
-    (fp_text reference D126 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D126 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -1961,7 +1961,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E04464D)
-    (fp_text reference D127 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D127 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -2000,7 +2000,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E044659)
-    (fp_text reference D128 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D128 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -2039,7 +2039,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E044665)
-    (fp_text reference D129 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D129 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -2078,7 +2078,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E044671)
-    (fp_text reference D130 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D130 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -2117,7 +2117,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E04467D)
-    (fp_text reference D131 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D131 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -2156,7 +2156,7 @@
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E044689)
-    (fp_text reference D132 (at 1.27 -2.3114 180) (layer B.SilkS)
+    (fp_text reference D132 (at 0.085724 -2.3114 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 180) (layer B.Fab) hide
@@ -2304,12 +2304,12 @@
     )
   )
 
-  (module wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity (layer B.Cu) (tedit 5DF5B286) (tstamp 5DF7C4BA)
+  (module wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity (layer B.Cu) (tedit 5DF5B286) (tstamp 5DFA4457)
     (at 259.949 66.9116)
     (descr "LED, Round, FlatTop,  Rectangular size 4.8x2.5mm^2 diameter 2.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-13GD(Ver.11B).pdf")
     (tags "LED Round FlatTop  Rectangular size 4.8x2.5mm^2 diameter 2.0mm 2 pins")
     (path /5E966A70)
-    (fp_text reference D154 (at 1.27 -2.3114 -180) (layer B.SilkS)
+    (fp_text reference D154 (at -0.000418 2.368546 -180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value LED (at 1.27 -2.31 -180) (layer B.Fab) hide
@@ -9844,7 +9844,7 @@
   (segment (start 270.242301 80.141325) (end 269.556789 80.826837) (width 0.25) (layer B.Cu) (net 112))
   (segment (start 266.501 79.5647) (end 263.961 79.5647) (width 0.25) (layer F.Cu) (net 113))
 
-  (zone (net 98) (net_name GND) (layer B.Cu) (tstamp 5DFA06F1) (hatch full 0.508)
+  (zone (net 98) (net_name GND) (layer B.Cu) (tstamp 5DFA377B) (hatch full 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -11316,7 +11316,7 @@
       )
     )
   )
-  (zone (net 98) (net_name GND) (layer F.Cu) (tstamp 5DFA06EE) (hatch full 0.508)
+  (zone (net 98) (net_name GND) (layer F.Cu) (tstamp 5DFA3778) (hatch full 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -13237,7 +13237,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5DFA06EB) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5DFA3775) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -16449,7 +16449,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5DFA06E8) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5DFA3772) (hatch edge 0.508)
     (connect_pads no (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
