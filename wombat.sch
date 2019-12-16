@@ -17,124 +17,14 @@ $EndDescr
 $Comp
 L Switch:SW_Push SW101
 U 1 1 5DF28FEF
-P 10550 4900
-F 0 "SW101" V 10596 4852 50  0000 R CNN
-F 1 "SW_Push" V 10505 4852 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQP0" H 10550 5100 50  0001 C CNN
-F 3 "~" H 10550 5100 50  0001 C CNN
-	1    10550 4900
-	0    -1   -1   0   
+P 9750 4550
+F 0 "SW101" H 9900 4450 50  0000 R CNN
+F 1 "SW_Push" H 9900 4350 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQP0" H 9750 4750 50  0001 C CNN
+F 3 "~" H 9750 4750 50  0001 C CNN
+	1    9750 4550
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10400 5000 10400 4700
-Wire Wire Line
-	10400 4700 10550 4700
-NoConn ~ 10000 4900
-Wire Wire Line
-	10000 5100 10550 5100
-$Comp
-L promicro:ProMicro U1
-U 1 1 5DE4A2F9
-P 9300 5650
-F 0 "U1" H 9300 6687 60  0000 C CNN
-F 1 "ProMicro" H 9300 6581 60  0000 C CNN
-F 2 "keebs-github:Pro_Micro" H 9400 4600 60  0001 C CNN
-F 3 "" H 9400 4600 60  0000 C CNN
-	1    9300 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 5200 10300 5200
-$Comp
-L Device:LED D102
-U 1 1 5DDEAB57
-P 1350 5750
-F 0 "D102" H 1343 5966 50  0000 C CNN
-F 1 "LED" H 1343 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1350 5750 50  0001 C CNN
-F 3 "~" H 1350 5750 50  0001 C CNN
-	1    1350 5750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R101
-U 1 1 5DF00B52
-P 650 5900
-F 0 "R101" H 720 5946 50  0000 L CNN
-F 1 "300" H 720 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 580 5900 50  0001 C CNN
-F 3 "~" H 650 5900 50  0001 C CNN
-	1    650  5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R102
-U 1 1 5DF03386
-P 1200 5900
-F 0 "R102" H 1270 5946 50  0000 L CNN
-F 1 "300" H 1270 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 5900 50  0001 C CNN
-F 3 "~" H 1200 5900 50  0001 C CNN
-	1    1200 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R113
-U 1 1 5DF9F70A
-P 1200 6650
-F 0 "R113" H 1270 6696 50  0000 L CNN
-F 1 "300" H 1270 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 6650 50  0001 C CNN
-F 3 "~" H 1200 6650 50  0001 C CNN
-	1    1200 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D113
-U 1 1 5DF9F734
-P 1350 6500
-F 0 "D113" H 1343 6716 50  0000 C CNN
-F 1 "LED" H 1343 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1350 6500 50  0001 C CNN
-F 3 "~" H 1350 6500 50  0001 C CNN
-	1    1350 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R123
-U 1 1 5DFD446A
-P 1200 7400
-F 0 "R123" H 1270 7446 50  0000 L CNN
-F 1 "300" H 1270 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 7400 50  0001 C CNN
-F 3 "~" H 1200 7400 50  0001 C CNN
-	1    1200 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D123
-U 1 1 5DFD4494
-P 1350 7250
-F 0 "D123" H 1343 7466 50  0000 C CNN
-F 1 "LED" H 1343 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1350 7250 50  0001 C CNN
-F 3 "~" H 1350 7250 50  0001 C CNN
-	1    1350 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D101
-U 1 1 5DDDAF43
-P 800 5750
-F 0 "D101" H 793 5966 50  0000 C CNN
-F 1 "LED" H 793 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 800 5750 50  0001 C CNN
-F 3 "~" H 800 5750 50  0001 C CNN
-	1    800  5750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 5000 10400 5000
 $Comp
 L Switch:SW_SPST SW31
 U 1 1 5E5E07EF
@@ -856,7 +746,7 @@ U 1 1 5E5E097B
 P 8050 3550
 F 0 "SW30" H 8050 3785 50  0000 C CNN
 F 1 "SW_SPST" H 8050 3694 50  0000 C CNN
-F 2 "keebs-github:Mx_Alps_225" H 8050 3550 50  0001 C CNN
+F 2 "wombat.pretty:Mx_Alps_225_Inverted_Stabs" H 8050 3550 50  0001 C CNN
 F 3 "~" H 8050 3550 50  0001 C CNN
 	1    8050 3550
 	1    0    0    -1  
@@ -867,7 +757,7 @@ U 1 1 5E5E0981
 P 8650 3550
 F 0 "SW34" H 8650 3785 50  0000 C CNN
 F 1 "SW_SPST" H 8650 3694 50  0000 C CNN
-F 2 "keebs-github:Mx_Alps_225" H 8650 3550 50  0001 C CNN
+F 2 "wombat.pretty:Mx_Alps_225_Inverted_Stabs" H 8650 3550 50  0001 C CNN
 F 3 "~" H 8650 3550 50  0001 C CNN
 	1    8650 3550
 	1    0    0    -1  
@@ -1390,46 +1280,6 @@ Text Label 10050 4000 0    50   ~ 0
 col_11
 Text Label 10650 4000 0    50   ~ 0
 col_12
-Text Label 8600 4900 2    50   ~ 0
-row_2
-Text Label 8600 5000 2    50   ~ 0
-row_1
-Text Label 8600 5300 2    50   ~ 0
-row_0
-Text Label 8600 5400 2    50   ~ 0
-col_12
-Text Label 8600 5500 2    50   ~ 0
-col_11
-Text Label 8600 5600 2    50   ~ 0
-col_10
-Text Label 8600 5700 2    50   ~ 0
-col_9
-Text Label 10000 5300 0    50   ~ 0
-col_5
-Text Label 10000 5400 0    50   ~ 0
-col_4
-Text Label 10000 5500 0    50   ~ 0
-col_3
-Text Label 10000 5600 0    50   ~ 0
-col_2
-Text Label 10000 5700 0    50   ~ 0
-col_1
-Text Label 10000 5800 0    50   ~ 0
-col_0
-Text Label 10000 6000 0    50   ~ 0
-row_3
-Text Label 10000 5900 0    50   ~ 0
-BACKLIGHT_PWM
-Text Label 650  7700 0    50   ~ 0
-BACKLIGHT_PWM
-Text Label 8600 5800 2    50   ~ 0
-col_8
-Text Label 8600 5900 2    50   ~ 0
-col_7
-Text Label 8600 6000 2    50   ~ 0
-col_6
-Text Notes 7000 6750 0    50   ~ 0
-Note:\nLED Backlighting is only present on the alpha keys
 Wire Wire Line
 	8850 2550 8850 3200
 Wire Wire Line
@@ -1582,1325 +1432,1366 @@ F 3 "~" H 9250 3550 50  0001 C CNN
 	1    9250 3550
 	1    0    0    -1  
 $EndComp
+Text Label 7600 5900 0    50   ~ 0
+LED_LAYER_INDICATOR_3
+Text Label 7600 5800 0    50   ~ 0
+LED_LAYER_INDICATOR_2
+Text Label 7600 5700 0    50   ~ 0
+LED_LAYER_INDICATOR_1
 $Comp
-L Device:R R112
-U 1 1 5DF22707
-P 6700 5900
-F 0 "R112" H 6770 5946 50  0000 L CNN
-F 1 "300" H 6770 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 5900 50  0001 C CNN
-F 3 "~" H 6700 5900 50  0001 C CNN
-	1    6700 5900
+L Device:LED D101
+U 1 1 5DF73264
+P 1000 5850
+F 0 "D101" V 1050 6000 50  0000 C CNN
+F 1 "LED" V 950 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1000 5850 50  0001 C CNN
+F 3 "~" H 1000 5850 50  0001 C CNN
+	1    1000 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R101
+U 1 1 5DF7325E
+P 1000 5550
+F 0 "R101" H 1070 5596 50  0000 L CNN
+F 1 "300" H 1070 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 930 5550 50  0001 C CNN
+F 3 "~" H 1000 5550 50  0001 C CNN
+	1    1000 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R111
-U 1 1 5DF1FCA4
-P 6150 5900
-F 0 "R111" H 6220 5946 50  0000 L CNN
-F 1 "300" H 6220 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 5900 50  0001 C CNN
-F 3 "~" H 6150 5900 50  0001 C CNN
-	1    6150 5900
+L Device:LED D102
+U 1 1 5DFB3A7B
+P 1350 5850
+F 0 "D102" V 1400 6000 50  0000 C CNN
+F 1 "LED" V 1300 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1350 5850 50  0001 C CNN
+F 3 "~" H 1350 5850 50  0001 C CNN
+	1    1350 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R102
+U 1 1 5DFB3A81
+P 1350 5550
+F 0 "R102" H 1420 5596 50  0000 L CNN
+F 1 "300" H 1420 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 5550 50  0001 C CNN
+F 3 "~" H 1350 5550 50  0001 C CNN
+	1    1350 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R110
-U 1 1 5DF1D0B4
-P 5600 5900
-F 0 "R110" H 5670 5946 50  0000 L CNN
-F 1 "300" H 5670 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 5900 50  0001 C CNN
-F 3 "~" H 5600 5900 50  0001 C CNN
-	1    5600 5900
-	1    0    0    -1  
+L Device:LED D103
+U 1 1 5DFC0CFF
+P 1700 5850
+F 0 "D103" V 1750 6000 50  0000 C CNN
+F 1 "LED" V 1650 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1700 5850 50  0001 C CNN
+F 3 "~" H 1700 5850 50  0001 C CNN
+	1    1700 5850
+	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R109
-U 1 1 5DF1A568
-P 5050 5900
-F 0 "R109" H 5120 5946 50  0000 L CNN
-F 1 "300" H 5120 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 5900 50  0001 C CNN
-F 3 "~" H 5050 5900 50  0001 C CNN
-	1    5050 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R108
-U 1 1 5DF178AE
-P 4500 5900
-F 0 "R108" H 4570 5946 50  0000 L CNN
-F 1 "300" H 4570 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 5900 50  0001 C CNN
-F 3 "~" H 4500 5900 50  0001 C CNN
-	1    4500 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R107
-U 1 1 5DF14CA3
-P 3950 5900
-F 0 "R107" H 4020 5946 50  0000 L CNN
-F 1 "300" H 4020 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 5900 50  0001 C CNN
-F 3 "~" H 3950 5900 50  0001 C CNN
-	1    3950 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R106
-U 1 1 5DF0E3D8
-P 3400 5900
-F 0 "R106" H 3470 5946 50  0000 L CNN
-F 1 "300" H 3470 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 5900 50  0001 C CNN
-F 3 "~" H 3400 5900 50  0001 C CNN
-	1    3400 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R105
-U 1 1 5DF0B734
-P 2850 5900
-F 0 "R105" H 2920 5946 50  0000 L CNN
-F 1 "300" H 2920 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2780 5900 50  0001 C CNN
-F 3 "~" H 2850 5900 50  0001 C CNN
-	1    2850 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R131
-U 1 1 5DFD44B2
-P 5600 7400
-F 0 "R131" H 5670 7446 50  0000 L CNN
-F 1 "300" H 5670 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 7400 50  0001 C CNN
-F 3 "~" H 5600 7400 50  0001 C CNN
-	1    5600 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D131
-U 1 1 5DFD44AC
-P 5750 7250
-F 0 "D131" H 5743 7466 50  0000 C CNN
-F 1 "LED" H 5743 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 5750 7250 50  0001 C CNN
-F 3 "~" H 5750 7250 50  0001 C CNN
-	1    5750 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D130
-U 1 1 5DFD44A6
-P 5200 7250
-F 0 "D130" H 5193 7466 50  0000 C CNN
-F 1 "LED" H 5193 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 5200 7250 50  0001 C CNN
-F 3 "~" H 5200 7250 50  0001 C CNN
-	1    5200 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R124
-U 1 1 5DFD44A0
-P 1750 7400
-F 0 "R124" H 1820 7446 50  0000 L CNN
-F 1 "300" H 1820 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 7400 50  0001 C CNN
-F 3 "~" H 1750 7400 50  0001 C CNN
-	1    1750 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D124
-U 1 1 5DFD449A
-P 1900 7250
-F 0 "D124" H 1893 7466 50  0000 C CNN
-F 1 "LED" H 1893 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1900 7250 50  0001 C CNN
-F 3 "~" H 1900 7250 50  0001 C CNN
-	1    1900 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D125
-U 1 1 5DFD448E
-P 2450 7250
-F 0 "D125" H 2443 7466 50  0000 C CNN
-F 1 "LED" H 2443 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2450 7250 50  0001 C CNN
-F 3 "~" H 2450 7250 50  0001 C CNN
-	1    2450 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D126
-U 1 1 5DFD4488
-P 3000 7250
-F 0 "D126" H 2993 7466 50  0000 C CNN
-F 1 "LED" H 2993 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3000 7250 50  0001 C CNN
-F 3 "~" H 3000 7250 50  0001 C CNN
-	1    3000 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D127
-U 1 1 5DFD4482
-P 3550 7250
-F 0 "D127" H 3543 7466 50  0000 C CNN
-F 1 "LED" H 3543 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3550 7250 50  0001 C CNN
-F 3 "~" H 3550 7250 50  0001 C CNN
-	1    3550 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D128
-U 1 1 5DFD447C
-P 4100 7250
-F 0 "D128" H 4093 7466 50  0000 C CNN
-F 1 "LED" H 4093 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4100 7250 50  0001 C CNN
-F 3 "~" H 4100 7250 50  0001 C CNN
-	1    4100 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D129
-U 1 1 5DFD4476
-P 4650 7250
-F 0 "D129" H 4643 7466 50  0000 C CNN
-F 1 "LED" H 4643 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4650 7250 50  0001 C CNN
-F 3 "~" H 4650 7250 50  0001 C CNN
-	1    4650 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D132
-U 1 1 5DFD4470
-P 6300 7250
-F 0 "D132" H 6293 7466 50  0000 C CNN
-F 1 "LED" H 6293 7375 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 6300 7250 50  0001 C CNN
-F 3 "~" H 6300 7250 50  0001 C CNN
-	1    6300 7250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R125
-U 1 1 5DFD4464
-P 2300 7400
-F 0 "R125" H 2370 7446 50  0000 L CNN
-F 1 "300" H 2370 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 7400 50  0001 C CNN
-F 3 "~" H 2300 7400 50  0001 C CNN
-	1    2300 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R126
-U 1 1 5DFD445E
-P 2850 7400
-F 0 "R126" H 2920 7446 50  0000 L CNN
-F 1 "300" H 2920 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2780 7400 50  0001 C CNN
-F 3 "~" H 2850 7400 50  0001 C CNN
-	1    2850 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R127
-U 1 1 5DFD4458
-P 3400 7400
-F 0 "R127" H 3470 7446 50  0000 L CNN
-F 1 "300" H 3470 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 7400 50  0001 C CNN
-F 3 "~" H 3400 7400 50  0001 C CNN
-	1    3400 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R128
-U 1 1 5DFD4452
-P 3950 7400
-F 0 "R128" H 4020 7446 50  0000 L CNN
-F 1 "300" H 4020 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 7400 50  0001 C CNN
-F 3 "~" H 3950 7400 50  0001 C CNN
-	1    3950 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R129
-U 1 1 5DFD444C
-P 4500 7400
-F 0 "R129" H 4570 7446 50  0000 L CNN
-F 1 "300" H 4570 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 7400 50  0001 C CNN
-F 3 "~" H 4500 7400 50  0001 C CNN
-	1    4500 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R130
-U 1 1 5DFD4446
-P 5050 7400
-F 0 "R130" H 5120 7446 50  0000 L CNN
-F 1 "300" H 5120 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 7400 50  0001 C CNN
-F 3 "~" H 5050 7400 50  0001 C CNN
-	1    5050 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R132
-U 1 1 5DFD4440
-P 6150 7400
-F 0 "R132" H 6220 7446 50  0000 L CNN
-F 1 "300" H 6220 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 7400 50  0001 C CNN
-F 3 "~" H 6150 7400 50  0001 C CNN
-	1    6150 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R121
-U 1 1 5DF9F752
-P 5600 6650
-F 0 "R121" H 5670 6696 50  0000 L CNN
-F 1 "300" H 5670 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5530 6650 50  0001 C CNN
-F 3 "~" H 5600 6650 50  0001 C CNN
-	1    5600 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D121
-U 1 1 5DF9F74C
-P 5750 6500
-F 0 "D121" H 5743 6716 50  0000 C CNN
-F 1 "LED" H 5743 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 5750 6500 50  0001 C CNN
-F 3 "~" H 5750 6500 50  0001 C CNN
-	1    5750 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D120
-U 1 1 5DF9F746
-P 5200 6500
-F 0 "D120" H 5193 6716 50  0000 C CNN
-F 1 "LED" H 5193 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 5200 6500 50  0001 C CNN
-F 3 "~" H 5200 6500 50  0001 C CNN
-	1    5200 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R114
-U 1 1 5DF9F740
-P 1750 6650
-F 0 "R114" H 1820 6696 50  0000 L CNN
-F 1 "300" H 1820 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 6650 50  0001 C CNN
-F 3 "~" H 1750 6650 50  0001 C CNN
-	1    1750 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D114
-U 1 1 5DF9F73A
-P 1900 6500
-F 0 "D114" H 1893 6716 50  0000 C CNN
-F 1 "LED" H 1893 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1900 6500 50  0001 C CNN
-F 3 "~" H 1900 6500 50  0001 C CNN
-	1    1900 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D115
-U 1 1 5DF9F72E
-P 2450 6500
-F 0 "D115" H 2443 6716 50  0000 C CNN
-F 1 "LED" H 2443 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2450 6500 50  0001 C CNN
-F 3 "~" H 2450 6500 50  0001 C CNN
-	1    2450 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D116
-U 1 1 5DF9F728
-P 3000 6500
-F 0 "D116" H 2993 6716 50  0000 C CNN
-F 1 "LED" H 2993 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3000 6500 50  0001 C CNN
-F 3 "~" H 3000 6500 50  0001 C CNN
-	1    3000 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D117
-U 1 1 5DF9F722
-P 3550 6500
-F 0 "D117" H 3543 6716 50  0000 C CNN
-F 1 "LED" H 3543 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3550 6500 50  0001 C CNN
-F 3 "~" H 3550 6500 50  0001 C CNN
-	1    3550 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D118
-U 1 1 5DF9F71C
-P 4100 6500
-F 0 "D118" H 4093 6716 50  0000 C CNN
-F 1 "LED" H 4093 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4100 6500 50  0001 C CNN
-F 3 "~" H 4100 6500 50  0001 C CNN
-	1    4100 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D119
-U 1 1 5DF9F716
-P 4650 6500
-F 0 "D119" H 4643 6716 50  0000 C CNN
-F 1 "LED" H 4643 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4650 6500 50  0001 C CNN
-F 3 "~" H 4650 6500 50  0001 C CNN
-	1    4650 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D122
-U 1 1 5DF9F710
-P 6300 6500
-F 0 "D122" H 6293 6716 50  0000 C CNN
-F 1 "LED" H 6293 6625 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 6300 6500 50  0001 C CNN
-F 3 "~" H 6300 6500 50  0001 C CNN
-	1    6300 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R115
-U 1 1 5DF9F704
-P 2300 6650
-F 0 "R115" H 2370 6696 50  0000 L CNN
-F 1 "300" H 2370 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 6650 50  0001 C CNN
-F 3 "~" H 2300 6650 50  0001 C CNN
-	1    2300 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R116
-U 1 1 5DF9F6FE
-P 2850 6650
-F 0 "R116" H 2920 6696 50  0000 L CNN
-F 1 "300" H 2920 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2780 6650 50  0001 C CNN
-F 3 "~" H 2850 6650 50  0001 C CNN
-	1    2850 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R117
-U 1 1 5DF9F6F8
-P 3400 6650
-F 0 "R117" H 3470 6696 50  0000 L CNN
-F 1 "300" H 3470 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 6650 50  0001 C CNN
-F 3 "~" H 3400 6650 50  0001 C CNN
-	1    3400 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R118
-U 1 1 5DF9F6F2
-P 3950 6650
-F 0 "R118" H 4020 6696 50  0000 L CNN
-F 1 "300" H 4020 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 6650 50  0001 C CNN
-F 3 "~" H 3950 6650 50  0001 C CNN
-	1    3950 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R119
-U 1 1 5DF9F6EC
-P 4500 6650
-F 0 "R119" H 4570 6696 50  0000 L CNN
-F 1 "300" H 4570 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 6650 50  0001 C CNN
-F 3 "~" H 4500 6650 50  0001 C CNN
-	1    4500 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R120
-U 1 1 5DF9F6E6
-P 5050 6650
-F 0 "R120" H 5120 6696 50  0000 L CNN
-F 1 "300" H 5120 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 6650 50  0001 C CNN
-F 3 "~" H 5050 6650 50  0001 C CNN
-	1    5050 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R122
-U 1 1 5DF9F6E0
-P 6150 6650
-F 0 "R122" H 6220 6696 50  0000 L CNN
-F 1 "300" H 6220 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 6650 50  0001 C CNN
-F 3 "~" H 6150 6650 50  0001 C CNN
-	1    6150 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D111
-U 1 1 5DE03E57
-P 6300 5750
-F 0 "D111" H 6293 5966 50  0000 C CNN
-F 1 "LED" H 6293 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 6300 5750 50  0001 C CNN
-F 3 "~" H 6300 5750 50  0001 C CNN
-	1    6300 5750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:LED D110
-U 1 1 5DE03E51
-P 5750 5750
-F 0 "D110" H 5743 5966 50  0000 C CNN
-F 1 "LED" H 5743 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 5750 5750 50  0001 C CNN
-F 3 "~" H 5750 5750 50  0001 C CNN
-	1    5750 5750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R104
-U 1 1 5DF08BF3
-P 2300 5900
-F 0 "R104" H 2370 5946 50  0000 L CNN
-F 1 "300" H 2370 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 5900 50  0001 C CNN
-F 3 "~" H 2300 5900 50  0001 C CNN
-	1    2300 5900
+L Device:R R103
+U 1 1 5DFC0D05
+P 1700 5550
+F 0 "R103" H 1770 5596 50  0000 L CNN
+F 1 "300" H 1770 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 5550 50  0001 C CNN
+F 3 "~" H 1700 5550 50  0001 C CNN
+	1    1700 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D104
-U 1 1 5DDF0F36
-P 2450 5750
-F 0 "D104" H 2443 5966 50  0000 C CNN
-F 1 "LED" H 2443 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2450 5750 50  0001 C CNN
-F 3 "~" H 2450 5750 50  0001 C CNN
-	1    2450 5750
-	-1   0    0    -1  
+U 1 1 5DFC0D0B
+P 2050 5850
+F 0 "D104" V 2100 6000 50  0000 C CNN
+F 1 "LED" V 2000 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2050 5850 50  0001 C CNN
+F 3 "~" H 2050 5850 50  0001 C CNN
+	1    2050 5850
+	0    1    -1   0   
 $EndComp
 $Comp
-L Device:LED D103
-U 1 1 5DDF0F30
-P 1900 5750
-F 0 "D103" H 1893 5966 50  0000 C CNN
-F 1 "LED" H 1893 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1900 5750 50  0001 C CNN
-F 3 "~" H 1900 5750 50  0001 C CNN
-	1    1900 5750
-	-1   0    0    -1  
+L Device:R R104
+U 1 1 5DFC0D11
+P 2050 5550
+F 0 "R104" H 2120 5596 50  0000 L CNN
+F 1 "300" H 2120 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 5550 50  0001 C CNN
+F 3 "~" H 2050 5550 50  0001 C CNN
+	1    2050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5DFE5F3F
+P 700 7400
+F 0 "#PWR0101" H 700 7250 50  0001 C CNN
+F 1 "+5V" H 715 7573 50  0000 C CNN
+F 2 "" H 700 7400 50  0001 C CNN
+F 3 "" H 700 7400 50  0001 C CNN
+	1    700  7400
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D105
-U 1 1 5DDFEE7D
-P 3000 5750
-F 0 "D105" H 2993 5966 50  0000 C CNN
-F 1 "LED" H 2993 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3000 5750 50  0001 C CNN
-F 3 "~" H 3000 5750 50  0001 C CNN
-	1    3000 5750
-	-1   0    0    -1  
+U 1 1 5E057497
+P 2400 5850
+F 0 "D105" V 2450 6000 50  0000 C CNN
+F 1 "LED" V 2350 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2400 5850 50  0001 C CNN
+F 3 "~" H 2400 5850 50  0001 C CNN
+	1    2400 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R105
+U 1 1 5E05749D
+P 2400 5550
+F 0 "R105" H 2470 5596 50  0000 L CNN
+F 1 "300" H 2470 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2330 5550 50  0001 C CNN
+F 3 "~" H 2400 5550 50  0001 C CNN
+	1    2400 5550
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D106
-U 1 1 5DDFEE83
-P 3550 5750
-F 0 "D106" H 3543 5966 50  0000 C CNN
-F 1 "LED" H 3543 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3550 5750 50  0001 C CNN
-F 3 "~" H 3550 5750 50  0001 C CNN
-	1    3550 5750
-	-1   0    0    -1  
+U 1 1 5E0574A3
+P 2750 5850
+F 0 "D106" V 2800 6000 50  0000 C CNN
+F 1 "LED" V 2700 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2750 5850 50  0001 C CNN
+F 3 "~" H 2750 5850 50  0001 C CNN
+	1    2750 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R106
+U 1 1 5E0574A9
+P 2750 5550
+F 0 "R106" H 2820 5596 50  0000 L CNN
+F 1 "300" H 2820 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 5550 50  0001 C CNN
+F 3 "~" H 2750 5550 50  0001 C CNN
+	1    2750 5550
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D107
-U 1 1 5DDFEE89
-P 4100 5750
-F 0 "D107" H 4093 5966 50  0000 C CNN
-F 1 "LED" H 4093 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4100 5750 50  0001 C CNN
-F 3 "~" H 4100 5750 50  0001 C CNN
-	1    4100 5750
-	-1   0    0    -1  
+U 1 1 5E0574AF
+P 3100 5850
+F 0 "D107" V 3150 6000 50  0000 C CNN
+F 1 "LED" V 3050 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3100 5850 50  0001 C CNN
+F 3 "~" H 3100 5850 50  0001 C CNN
+	1    3100 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R107
+U 1 1 5E0574B5
+P 3100 5550
+F 0 "R107" H 3170 5596 50  0000 L CNN
+F 1 "300" H 3170 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 5550 50  0001 C CNN
+F 3 "~" H 3100 5550 50  0001 C CNN
+	1    3100 5550
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D108
-U 1 1 5DDFEE8F
-P 4650 5750
-F 0 "D108" H 4643 5966 50  0000 C CNN
-F 1 "LED" H 4643 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4650 5750 50  0001 C CNN
-F 3 "~" H 4650 5750 50  0001 C CNN
-	1    4650 5750
-	-1   0    0    -1  
+U 1 1 5E0574BB
+P 3450 5850
+F 0 "D108" V 3500 6000 50  0000 C CNN
+F 1 "LED" V 3400 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3450 5850 50  0001 C CNN
+F 3 "~" H 3450 5850 50  0001 C CNN
+	1    3450 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R108
+U 1 1 5E0574C1
+P 3450 5550
+F 0 "R108" H 3520 5596 50  0000 L CNN
+F 1 "300" H 3520 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 5550 50  0001 C CNN
+F 3 "~" H 3450 5550 50  0001 C CNN
+	1    3450 5550
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D109
-U 1 1 5DE03E4B
-P 5200 5750
-F 0 "D109" H 5193 5966 50  0000 C CNN
-F 1 "LED" H 5193 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 5200 5750 50  0001 C CNN
-F 3 "~" H 5200 5750 50  0001 C CNN
-	1    5200 5750
-	-1   0    0    -1  
+U 1 1 5DFEF7FF
+P 3800 5850
+F 0 "D109" V 3850 6000 50  0000 C CNN
+F 1 "LED" V 3750 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3800 5850 50  0001 C CNN
+F 3 "~" H 3800 5850 50  0001 C CNN
+	1    3800 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R109
+U 1 1 5DFEF805
+P 3800 5550
+F 0 "R109" H 3870 5596 50  0000 L CNN
+F 1 "300" H 3870 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 5550 50  0001 C CNN
+F 3 "~" H 3800 5550 50  0001 C CNN
+	1    3800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D110
+U 1 1 5DFEF80B
+P 4150 5850
+F 0 "D110" V 4200 6000 50  0000 C CNN
+F 1 "LED" V 4100 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4150 5850 50  0001 C CNN
+F 3 "~" H 4150 5850 50  0001 C CNN
+	1    4150 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R110
+U 1 1 5DFEF811
+P 4150 5550
+F 0 "R110" H 4220 5596 50  0000 L CNN
+F 1 "300" H 4220 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 5550 50  0001 C CNN
+F 3 "~" H 4150 5550 50  0001 C CNN
+	1    4150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D111
+U 1 1 5DFEF817
+P 4500 5850
+F 0 "D111" V 4550 6000 50  0000 C CNN
+F 1 "LED" V 4450 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4500 5850 50  0001 C CNN
+F 3 "~" H 4500 5850 50  0001 C CNN
+	1    4500 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R111
+U 1 1 5DFEF81D
+P 4500 5550
+F 0 "R111" H 4570 5596 50  0000 L CNN
+F 1 "300" H 4570 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 5550 50  0001 C CNN
+F 3 "~" H 4500 5550 50  0001 C CNN
+	1    4500 5550
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D112
-U 1 1 5DE03E5D
-P 6850 5750
-F 0 "D112" H 6843 5966 50  0000 C CNN
-F 1 "LED" H 6843 5875 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 6850 5750 50  0001 C CNN
-F 3 "~" H 6850 5750 50  0001 C CNN
-	1    6850 5750
+U 1 1 5DFEF823
+P 4850 5850
+F 0 "D112" V 4900 6000 50  0000 C CNN
+F 1 "LED" V 4800 6000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4850 5850 50  0001 C CNN
+F 3 "~" H 4850 5850 50  0001 C CNN
+	1    4850 5850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R112
+U 1 1 5DFEF829
+P 4850 5550
+F 0 "R112" H 4920 5596 50  0000 L CNN
+F 1 "300" H 4920 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 5550 50  0001 C CNN
+F 3 "~" H 4850 5550 50  0001 C CNN
+	1    4850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D113
+U 1 1 5E010451
+P 1350 6650
+F 0 "D113" V 1400 6800 50  0000 C CNN
+F 1 "LED" V 1300 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1350 6650 50  0001 C CNN
+F 3 "~" H 1350 6650 50  0001 C CNN
+	1    1350 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R113
+U 1 1 5E010457
+P 1350 6350
+F 0 "R113" H 1420 6396 50  0000 L CNN
+F 1 "300" H 1420 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 6350 50  0001 C CNN
+F 3 "~" H 1350 6350 50  0001 C CNN
+	1    1350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D114
+U 1 1 5E01045D
+P 1700 6650
+F 0 "D114" V 1750 6800 50  0000 C CNN
+F 1 "LED" V 1650 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1700 6650 50  0001 C CNN
+F 3 "~" H 1700 6650 50  0001 C CNN
+	1    1700 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R114
+U 1 1 5E010463
+P 1700 6350
+F 0 "R114" H 1770 6396 50  0000 L CNN
+F 1 "300" H 1770 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 6350 50  0001 C CNN
+F 3 "~" H 1700 6350 50  0001 C CNN
+	1    1700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D115
+U 1 1 5E010469
+P 2050 6650
+F 0 "D115" V 2100 6800 50  0000 C CNN
+F 1 "LED" V 2000 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2050 6650 50  0001 C CNN
+F 3 "~" H 2050 6650 50  0001 C CNN
+	1    2050 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R115
+U 1 1 5E01046F
+P 2050 6350
+F 0 "R115" H 2120 6396 50  0000 L CNN
+F 1 "300" H 2120 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 6350 50  0001 C CNN
+F 3 "~" H 2050 6350 50  0001 C CNN
+	1    2050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D116
+U 1 1 5E010475
+P 2400 6650
+F 0 "D116" V 2450 6800 50  0000 C CNN
+F 1 "LED" V 2350 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2400 6650 50  0001 C CNN
+F 3 "~" H 2400 6650 50  0001 C CNN
+	1    2400 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R116
+U 1 1 5E01047B
+P 2400 6350
+F 0 "R116" H 2470 6396 50  0000 L CNN
+F 1 "300" H 2470 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2330 6350 50  0001 C CNN
+F 3 "~" H 2400 6350 50  0001 C CNN
+	1    2400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D117
+U 1 1 5E010481
+P 2750 6650
+F 0 "D117" V 2800 6800 50  0000 C CNN
+F 1 "LED" V 2700 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2750 6650 50  0001 C CNN
+F 3 "~" H 2750 6650 50  0001 C CNN
+	1    2750 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R117
+U 1 1 5E010487
+P 2750 6350
+F 0 "R117" H 2820 6396 50  0000 L CNN
+F 1 "300" H 2820 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 6350 50  0001 C CNN
+F 3 "~" H 2750 6350 50  0001 C CNN
+	1    2750 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D118
+U 1 1 5E01048D
+P 3100 6650
+F 0 "D118" V 3150 6800 50  0000 C CNN
+F 1 "LED" V 3050 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3100 6650 50  0001 C CNN
+F 3 "~" H 3100 6650 50  0001 C CNN
+	1    3100 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R118
+U 1 1 5E010493
+P 3100 6350
+F 0 "R118" H 3170 6396 50  0000 L CNN
+F 1 "300" H 3170 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 6350 50  0001 C CNN
+F 3 "~" H 3100 6350 50  0001 C CNN
+	1    3100 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D119
+U 1 1 5E010499
+P 3450 6650
+F 0 "D119" V 3500 6800 50  0000 C CNN
+F 1 "LED" V 3400 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3450 6650 50  0001 C CNN
+F 3 "~" H 3450 6650 50  0001 C CNN
+	1    3450 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R119
+U 1 1 5E01049F
+P 3450 6350
+F 0 "R119" H 3520 6396 50  0000 L CNN
+F 1 "300" H 3520 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 6350 50  0001 C CNN
+F 3 "~" H 3450 6350 50  0001 C CNN
+	1    3450 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D120
+U 1 1 5E0104A5
+P 3800 6650
+F 0 "D120" V 3850 6800 50  0000 C CNN
+F 1 "LED" V 3750 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3800 6650 50  0001 C CNN
+F 3 "~" H 3800 6650 50  0001 C CNN
+	1    3800 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R120
+U 1 1 5E0104AB
+P 3800 6350
+F 0 "R120" H 3870 6396 50  0000 L CNN
+F 1 "300" H 3870 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 6350 50  0001 C CNN
+F 3 "~" H 3800 6350 50  0001 C CNN
+	1    3800 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D121
+U 1 1 5E0104B1
+P 4150 6650
+F 0 "D121" V 4200 6800 50  0000 C CNN
+F 1 "LED" V 4100 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4150 6650 50  0001 C CNN
+F 3 "~" H 4150 6650 50  0001 C CNN
+	1    4150 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R121
+U 1 1 5E0104B7
+P 4150 6350
+F 0 "R121" H 4220 6396 50  0000 L CNN
+F 1 "300" H 4220 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 6350 50  0001 C CNN
+F 3 "~" H 4150 6350 50  0001 C CNN
+	1    4150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D122
+U 1 1 5E0104BD
+P 4500 6650
+F 0 "D122" V 4550 6800 50  0000 C CNN
+F 1 "LED" V 4450 6800 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4500 6650 50  0001 C CNN
+F 3 "~" H 4500 6650 50  0001 C CNN
+	1    4500 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R122
+U 1 1 5E0104C3
+P 4500 6350
+F 0 "R122" H 4570 6396 50  0000 L CNN
+F 1 "300" H 4570 6305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 6350 50  0001 C CNN
+F 3 "~" H 4500 6350 50  0001 C CNN
+	1    4500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D123
+U 1 1 5E04461D
+P 1350 7450
+F 0 "D123" V 1400 7600 50  0000 C CNN
+F 1 "LED" V 1300 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1350 7450 50  0001 C CNN
+F 3 "~" H 1350 7450 50  0001 C CNN
+	1    1350 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R123
+U 1 1 5E044623
+P 1350 7150
+F 0 "R123" H 1420 7196 50  0000 L CNN
+F 1 "300" H 1420 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 7150 50  0001 C CNN
+F 3 "~" H 1350 7150 50  0001 C CNN
+	1    1350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D124
+U 1 1 5E044629
+P 1700 7450
+F 0 "D124" V 1750 7600 50  0000 C CNN
+F 1 "LED" V 1650 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1700 7450 50  0001 C CNN
+F 3 "~" H 1700 7450 50  0001 C CNN
+	1    1700 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R124
+U 1 1 5E04462F
+P 1700 7150
+F 0 "R124" H 1770 7196 50  0000 L CNN
+F 1 "300" H 1770 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 7150 50  0001 C CNN
+F 3 "~" H 1700 7150 50  0001 C CNN
+	1    1700 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D125
+U 1 1 5E044635
+P 2050 7450
+F 0 "D125" V 2100 7600 50  0000 C CNN
+F 1 "LED" V 2000 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2050 7450 50  0001 C CNN
+F 3 "~" H 2050 7450 50  0001 C CNN
+	1    2050 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R125
+U 1 1 5E04463B
+P 2050 7150
+F 0 "R125" H 2120 7196 50  0000 L CNN
+F 1 "300" H 2120 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 7150 50  0001 C CNN
+F 3 "~" H 2050 7150 50  0001 C CNN
+	1    2050 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D126
+U 1 1 5E044641
+P 2400 7450
+F 0 "D126" V 2450 7600 50  0000 C CNN
+F 1 "LED" V 2350 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2400 7450 50  0001 C CNN
+F 3 "~" H 2400 7450 50  0001 C CNN
+	1    2400 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R126
+U 1 1 5E044647
+P 2400 7150
+F 0 "R126" H 2470 7196 50  0000 L CNN
+F 1 "300" H 2470 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2330 7150 50  0001 C CNN
+F 3 "~" H 2400 7150 50  0001 C CNN
+	1    2400 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D127
+U 1 1 5E04464D
+P 2750 7450
+F 0 "D127" V 2800 7600 50  0000 C CNN
+F 1 "LED" V 2700 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2750 7450 50  0001 C CNN
+F 3 "~" H 2750 7450 50  0001 C CNN
+	1    2750 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R127
+U 1 1 5E044653
+P 2750 7150
+F 0 "R127" H 2820 7196 50  0000 L CNN
+F 1 "300" H 2820 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 7150 50  0001 C CNN
+F 3 "~" H 2750 7150 50  0001 C CNN
+	1    2750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D128
+U 1 1 5E044659
+P 3100 7450
+F 0 "D128" V 3150 7600 50  0000 C CNN
+F 1 "LED" V 3050 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3100 7450 50  0001 C CNN
+F 3 "~" H 3100 7450 50  0001 C CNN
+	1    3100 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R128
+U 1 1 5E04465F
+P 3100 7150
+F 0 "R128" H 3170 7196 50  0000 L CNN
+F 1 "300" H 3170 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 7150 50  0001 C CNN
+F 3 "~" H 3100 7150 50  0001 C CNN
+	1    3100 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D129
+U 1 1 5E044665
+P 3450 7450
+F 0 "D129" V 3500 7600 50  0000 C CNN
+F 1 "LED" V 3400 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3450 7450 50  0001 C CNN
+F 3 "~" H 3450 7450 50  0001 C CNN
+	1    3450 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R129
+U 1 1 5E04466B
+P 3450 7150
+F 0 "R129" H 3520 7196 50  0000 L CNN
+F 1 "300" H 3520 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3380 7150 50  0001 C CNN
+F 3 "~" H 3450 7150 50  0001 C CNN
+	1    3450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D130
+U 1 1 5E044671
+P 3800 7450
+F 0 "D130" V 3850 7600 50  0000 C CNN
+F 1 "LED" V 3750 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 3800 7450 50  0001 C CNN
+F 3 "~" H 3800 7450 50  0001 C CNN
+	1    3800 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R130
+U 1 1 5E044677
+P 3800 7150
+F 0 "R130" H 3870 7196 50  0000 L CNN
+F 1 "300" H 3870 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 7150 50  0001 C CNN
+F 3 "~" H 3800 7150 50  0001 C CNN
+	1    3800 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D131
+U 1 1 5E04467D
+P 4150 7450
+F 0 "D131" V 4200 7600 50  0000 C CNN
+F 1 "LED" V 4100 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4150 7450 50  0001 C CNN
+F 3 "~" H 4150 7450 50  0001 C CNN
+	1    4150 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R131
+U 1 1 5E044683
+P 4150 7150
+F 0 "R131" H 4220 7196 50  0000 L CNN
+F 1 "300" H 4220 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 7150 50  0001 C CNN
+F 3 "~" H 4150 7150 50  0001 C CNN
+	1    4150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D132
+U 1 1 5E044689
+P 4500 7450
+F 0 "D132" V 4550 7600 50  0000 C CNN
+F 1 "LED" V 4450 7600 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 4500 7450 50  0001 C CNN
+F 3 "~" H 4500 7450 50  0001 C CNN
+	1    4500 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R132
+U 1 1 5E04468F
+P 4500 7150
+F 0 "R132" H 4570 7196 50  0000 L CNN
+F 1 "300" H 4570 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 7150 50  0001 C CNN
+F 3 "~" H 4500 7150 50  0001 C CNN
+	1    4500 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5400 4500 5400
+Connection ~ 1000 5400
+Wire Wire Line
+	1000 5400 700  5400
+Connection ~ 1350 5400
+Wire Wire Line
+	1350 5400 1000 5400
+Connection ~ 1700 5400
+Wire Wire Line
+	1700 5400 1350 5400
+Connection ~ 2050 5400
+Wire Wire Line
+	2050 5400 1700 5400
+Connection ~ 2400 5400
+Wire Wire Line
+	2400 5400 2050 5400
+Connection ~ 2750 5400
+Wire Wire Line
+	2750 5400 2400 5400
+Connection ~ 3100 5400
+Wire Wire Line
+	3100 5400 2750 5400
+Connection ~ 3450 5400
+Wire Wire Line
+	3450 5400 3100 5400
+Connection ~ 3800 5400
+Wire Wire Line
+	3800 5400 3450 5400
+Connection ~ 4150 5400
+Wire Wire Line
+	4150 5400 3800 5400
+Connection ~ 4500 5400
+Wire Wire Line
+	4500 5400 4150 5400
+Wire Wire Line
+	700  5400 700  6200
+Wire Wire Line
+	700  7000 1350 7000
+Connection ~ 1350 7000
+Wire Wire Line
+	1350 7000 1700 7000
+Connection ~ 1700 7000
+Wire Wire Line
+	1700 7000 2050 7000
+Connection ~ 2050 7000
+Wire Wire Line
+	2050 7000 2400 7000
+Connection ~ 2400 7000
+Wire Wire Line
+	2400 7000 2750 7000
+Connection ~ 2750 7000
+Wire Wire Line
+	2750 7000 3100 7000
+Connection ~ 3100 7000
+Wire Wire Line
+	3100 7000 3450 7000
+Connection ~ 3450 7000
+Wire Wire Line
+	3450 7000 3800 7000
+Connection ~ 3800 7000
+Wire Wire Line
+	3800 7000 4150 7000
+Connection ~ 4150 7000
+Wire Wire Line
+	4150 7000 4500 7000
+Wire Wire Line
+	4500 6200 4150 6200
+Connection ~ 700  6200
+Wire Wire Line
+	700  6200 700  7000
+Connection ~ 1350 6200
+Wire Wire Line
+	1350 6200 700  6200
+Connection ~ 1700 6200
+Wire Wire Line
+	1700 6200 1350 6200
+Connection ~ 2050 6200
+Wire Wire Line
+	2050 6200 1700 6200
+Connection ~ 2400 6200
+Wire Wire Line
+	2400 6200 2050 6200
+Connection ~ 2750 6200
+Wire Wire Line
+	2750 6200 2400 6200
+Connection ~ 3100 6200
+Wire Wire Line
+	3100 6200 2750 6200
+Connection ~ 3450 6200
+Wire Wire Line
+	3450 6200 3100 6200
+Connection ~ 3800 6200
+Wire Wire Line
+	3800 6200 3450 6200
+Connection ~ 4150 6200
+Wire Wire Line
+	4150 6200 3800 6200
+Wire Wire Line
+	1000 6000 1350 6000
+Connection ~ 4850 6000
+Connection ~ 1350 6000
+Wire Wire Line
+	1350 6000 1700 6000
+Connection ~ 1700 6000
+Wire Wire Line
+	1700 6000 2050 6000
+Connection ~ 2050 6000
+Wire Wire Line
+	2050 6000 2400 6000
+Connection ~ 2400 6000
+Wire Wire Line
+	2400 6000 2750 6000
+Connection ~ 2750 6000
+Wire Wire Line
+	2750 6000 3100 6000
+Connection ~ 3100 6000
+Wire Wire Line
+	3100 6000 3450 6000
+Connection ~ 3450 6000
+Wire Wire Line
+	3450 6000 3800 6000
+Connection ~ 3800 6000
+Wire Wire Line
+	3800 6000 4150 6000
+Connection ~ 4150 6000
+Wire Wire Line
+	4150 6000 4500 6000
+Connection ~ 4500 6000
+Wire Wire Line
+	4500 6000 4850 6000
+Wire Wire Line
+	1350 6800 1700 6800
+Connection ~ 1700 6800
+Wire Wire Line
+	1700 6800 2050 6800
+Connection ~ 2050 6800
+Wire Wire Line
+	2050 6800 2400 6800
+Connection ~ 2400 6800
+Wire Wire Line
+	2400 6800 2750 6800
+Connection ~ 2750 6800
+Wire Wire Line
+	2750 6800 3100 6800
+Connection ~ 3100 6800
+Wire Wire Line
+	3100 6800 3450 6800
+Connection ~ 3450 6800
+Wire Wire Line
+	3450 6800 3800 6800
+Connection ~ 3800 6800
+Wire Wire Line
+	3800 6800 4150 6800
+Connection ~ 4150 6800
+Wire Wire Line
+	4150 6800 4500 6800
+Connection ~ 4500 6800
+Wire Wire Line
+	1350 7600 1700 7600
+Connection ~ 1700 7600
+Wire Wire Line
+	1700 7600 2050 7600
+Connection ~ 2050 7600
+Wire Wire Line
+	2050 7600 2400 7600
+Connection ~ 2400 7600
+Wire Wire Line
+	2400 7600 2750 7600
+Connection ~ 2750 7600
+Wire Wire Line
+	2750 7600 3100 7600
+Connection ~ 3100 7600
+Wire Wire Line
+	3100 7600 3450 7600
+Connection ~ 3450 7600
+Wire Wire Line
+	3450 7600 3800 7600
+Connection ~ 3800 7600
+Wire Wire Line
+	3800 7600 4150 7600
+Connection ~ 4150 7600
+Wire Wire Line
+	4150 7600 4500 7600
+Connection ~ 4500 7600
+Wire Wire Line
+	4850 6000 5150 6000
+Wire Wire Line
+	4500 6800 5150 6800
+Connection ~ 5150 6800
+Wire Wire Line
+	5150 6800 5150 7600
+Wire Wire Line
+	4500 7600 5150 7600
+Wire Wire Line
+	700  7000 700  7400
+Connection ~ 700  7000
+$Comp
+L power:GND #PWR0102
+U 1 1 5E3C8BAB
+P 9950 4550
+F 0 "#PWR0102" H 9950 4300 50  0001 C CNN
+F 1 "GND" V 9955 4422 50  0000 R CNN
+F 2 "" H 9950 4550 50  0001 C CNN
+F 3 "" H 9950 4550 50  0001 C CNN
+	1    9950 4550
+	0    -1   -1   0   
+$EndComp
+Text Label 9550 4550 2    50   ~ 0
+RESET
+$Comp
+L Device:LED D153
+U 1 1 5E4130EF
+P 2050 2750
+F 0 "D153" H 2050 2850 50  0000 C CNN
+F 1 "LED" H 2050 2650 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2050 2750 50  0001 C CNN
+F 3 "~" H 2050 2750 50  0001 C CNN
+	1    2050 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R103
-U 1 1 5DF05F11
-P 1750 5900
-F 0 "R103" H 1820 5946 50  0000 L CNN
-F 1 "300" H 1820 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 5900 50  0001 C CNN
-F 3 "~" H 1750 5900 50  0001 C CNN
-	1    1750 5900
-	1    0    0    -1  
+L Device:R R153
+U 1 1 5E4130F5
+P 1750 2750
+F 0 "R153" V 1650 2650 50  0000 L CNN
+F 1 "300" V 1850 2650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 2750 50  0001 C CNN
+F 3 "~" H 1750 2750 50  0001 C CNN
+	1    1750 2750
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	650  6050 1200 6050
-Wire Wire Line
-	1200 6050 1750 6050
-Connection ~ 1200 6050
-Wire Wire Line
-	1750 6050 2300 6050
-Connection ~ 1750 6050
-Wire Wire Line
-	2300 6050 2850 6050
-Connection ~ 2300 6050
-Wire Wire Line
-	2850 6050 3400 6050
-Connection ~ 2850 6050
-Wire Wire Line
-	3950 6050 4500 6050
-Connection ~ 3950 6050
-Wire Wire Line
-	3400 6050 3950 6050
-Connection ~ 3400 6050
-Wire Wire Line
-	4500 6050 5050 6050
-Connection ~ 4500 6050
-Wire Wire Line
-	5050 6050 5600 6050
-Connection ~ 5050 6050
-Wire Wire Line
-	5600 6050 6150 6050
-Connection ~ 5600 6050
-Wire Wire Line
-	6150 6050 6700 6050
-Connection ~ 6150 6050
-Wire Wire Line
-	5600 6800 6150 6800
-Connection ~ 5600 6800
-Wire Wire Line
-	5050 6800 5600 6800
-Connection ~ 5050 6800
-Wire Wire Line
-	4500 6800 5050 6800
-Connection ~ 4500 6800
-Wire Wire Line
-	3950 6800 4500 6800
-Connection ~ 3950 6800
-Wire Wire Line
-	3400 6800 3950 6800
-Connection ~ 3400 6800
-Wire Wire Line
-	2850 6800 3400 6800
-Connection ~ 2850 6800
-Wire Wire Line
-	1200 6800 1750 6800
-Wire Wire Line
-	1200 7550 1750 7550
-Wire Wire Line
-	1750 7550 2300 7550
-Connection ~ 1750 7550
-Wire Wire Line
-	2300 7550 2850 7550
-Connection ~ 2300 7550
-Wire Wire Line
-	2850 7550 3400 7550
-Connection ~ 2850 7550
-Wire Wire Line
-	3400 7550 3950 7550
-Connection ~ 3400 7550
-Wire Wire Line
-	3950 7550 4500 7550
-Connection ~ 3950 7550
-Wire Wire Line
-	4500 7550 5050 7550
-Connection ~ 4500 7550
-Wire Wire Line
-	5050 7550 5600 7550
-Connection ~ 5050 7550
-Wire Wire Line
-	5600 7550 6150 7550
-Connection ~ 5600 7550
+Text Label 1600 2400 2    50   ~ 0
+LED_LAYER_INDICATOR_2
+Text Label 1600 2750 2    50   ~ 0
+LED_LAYER_INDICATOR_3
+Text Label 1600 2050 2    50   ~ 0
+LED_LAYER_INDICATOR_1
 $Comp
-L power:GND #PWR0101
-U 1 1 5E110BC6
-P 1050 5750
-F 0 "#PWR0101" H 1050 5500 50  0001 C CNN
-F 1 "GND" H 1055 5577 50  0000 C CNN
-F 2 "" H 1050 5750 50  0001 C CNN
-F 3 "" H 1050 5750 50  0001 C CNN
-	1    1050 5750
-	1    0    0    -1  
+L Device:R R152
+U 1 1 5E4B442D
+P 1750 2400
+F 0 "R152" V 1650 2300 50  0000 L CNN
+F 1 "300" V 1850 2300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 2400 50  0001 C CNN
+F 3 "~" H 1750 2400 50  0001 C CNN
+	1    1750 2400
+	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0102
-U 1 1 5E1126F1
-P 1600 5750
-F 0 "#PWR0102" H 1600 5500 50  0001 C CNN
-F 1 "GND" H 1605 5577 50  0000 C CNN
-F 2 "" H 1600 5750 50  0001 C CNN
-F 3 "" H 1600 5750 50  0001 C CNN
-	1    1600 5750
-	1    0    0    -1  
+L Device:R R151
+U 1 1 5E4D8432
+P 1750 2050
+F 0 "R151" V 1650 1950 50  0000 L CNN
+F 1 "300" V 1850 1950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1680 2050 50  0001 C CNN
+F 3 "~" H 1750 2050 50  0001 C CNN
+	1    1750 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D152
+U 1 1 5E4FBCE5
+P 2050 2400
+F 0 "D152" H 2050 2500 50  0000 C CNN
+F 1 "LED" H 2050 2300 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2050 2400 50  0001 C CNN
+F 3 "~" H 2050 2400 50  0001 C CNN
+	1    2050 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED D151
+U 1 1 5E506C76
+P 2050 2050
+F 0 "D151" H 2050 2150 50  0000 C CNN
+F 1 "LED" H 2050 1950 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2050 2050 50  0001 C CNN
+F 3 "~" H 2050 2050 50  0001 C CNN
+	1    2050 2050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0103
-U 1 1 5E117F5B
-P 2150 5750
-F 0 "#PWR0103" H 2150 5500 50  0001 C CNN
-F 1 "GND" H 2155 5577 50  0000 C CNN
-F 2 "" H 2150 5750 50  0001 C CNN
-F 3 "" H 2150 5750 50  0001 C CNN
-	1    2150 5750
-	1    0    0    -1  
+U 1 1 5E514769
+P 2300 2050
+F 0 "#PWR0103" H 2300 1800 50  0001 C CNN
+F 1 "GND" V 2305 1922 50  0000 R CNN
+F 2 "" H 2300 2050 50  0001 C CNN
+F 3 "" H 2300 2050 50  0001 C CNN
+	1    2300 2050
+	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2200 2050 2300 2050
+Wire Wire Line
+	2300 2750 2200 2750
+Wire Wire Line
+	2200 2400 2300 2400
+Text Label 7600 6000 0    50   ~ 0
+LED_CAPSLOCK
+Text Label 7600 6100 0    50   ~ 0
+LED_WASD
+Connection ~ 2300 2050
 $Comp
-L power:GND #PWR0104
-U 1 1 5E11A6E3
-P 2700 5750
-F 0 "#PWR0104" H 2700 5500 50  0001 C CNN
-F 1 "GND" H 2705 5577 50  0000 C CNN
-F 2 "" H 2700 5750 50  0001 C CNN
-F 3 "" H 2700 5750 50  0001 C CNN
-	1    2700 5750
-	1    0    0    -1  
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5E645FAA
+P 7400 5900
+F 0 "J1" H 7318 5475 50  0000 C CNN
+F 1 "Conn_01x05" H 7318 5566 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical" H 7400 5900 50  0001 C CNN
+F 3 "~" H 7400 5900 50  0001 C CNN
+	1    7400 5900
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2300 6800 2850 6800
-Connection ~ 2300 6800
-Wire Wire Line
-	1750 6800 2300 6800
-Connection ~ 1750 6800
-Wire Wire Line
-	950  5750 1050 5750
-Wire Wire Line
-	1500 5750 1600 5750
-Wire Wire Line
-	2050 5750 2150 5750
-Wire Wire Line
-	2600 5750 2700 5750
+	10450 5350 10800 5350
 $Comp
 L power:GND #PWR0105
-U 1 1 5E14B3E2
-P 3250 5750
-F 0 "#PWR0105" H 3250 5500 50  0001 C CNN
-F 1 "GND" H 3255 5577 50  0000 C CNN
-F 2 "" H 3250 5750 50  0001 C CNN
-F 3 "" H 3250 5750 50  0001 C CNN
-	1    3250 5750
-	1    0    0    -1  
+U 1 1 5E3CD1B3
+P 10450 5250
+F 0 "#PWR0105" H 10450 5000 50  0001 C CNN
+F 1 "GND" V 10455 5122 50  0000 R CNN
+F 2 "" H 10450 5250 50  0001 C CNN
+F 3 "" H 10450 5250 50  0001 C CNN
+	1    10450 5250
+	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5E14DA92
-P 3800 5750
-F 0 "#PWR0106" H 3800 5500 50  0001 C CNN
-F 1 "GND" H 3805 5577 50  0000 C CNN
-F 2 "" H 3800 5750 50  0001 C CNN
-F 3 "" H 3800 5750 50  0001 C CNN
-	1    3800 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5E14DB1D
-P 4350 5750
-F 0 "#PWR0107" H 4350 5500 50  0001 C CNN
-F 1 "GND" H 4355 5577 50  0000 C CNN
-F 2 "" H 4350 5750 50  0001 C CNN
-F 3 "" H 4350 5750 50  0001 C CNN
-	1    4350 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5E14F48D
-P 4900 5750
-F 0 "#PWR0108" H 4900 5500 50  0001 C CNN
-F 1 "GND" H 4905 5577 50  0000 C CNN
-F 2 "" H 4900 5750 50  0001 C CNN
-F 3 "" H 4900 5750 50  0001 C CNN
-	1    4900 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5E150A8A
-P 5450 5750
-F 0 "#PWR0109" H 5450 5500 50  0001 C CNN
-F 1 "GND" H 5455 5577 50  0000 C CNN
-F 2 "" H 5450 5750 50  0001 C CNN
-F 3 "" H 5450 5750 50  0001 C CNN
-	1    5450 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5E151E54
-P 6000 5750
-F 0 "#PWR0110" H 6000 5500 50  0001 C CNN
-F 1 "GND" H 6005 5577 50  0000 C CNN
-F 2 "" H 6000 5750 50  0001 C CNN
-F 3 "" H 6000 5750 50  0001 C CNN
-	1    6000 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5E1539C4
-P 6550 5750
-F 0 "#PWR0111" H 6550 5500 50  0001 C CNN
-F 1 "GND" H 6555 5577 50  0000 C CNN
-F 2 "" H 6550 5750 50  0001 C CNN
-F 3 "" H 6550 5750 50  0001 C CNN
-	1    6550 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5E154DA6
-P 7100 5750
-F 0 "#PWR0112" H 7100 5500 50  0001 C CNN
-F 1 "GND" H 7105 5577 50  0000 C CNN
-F 2 "" H 7100 5750 50  0001 C CNN
-F 3 "" H 7100 5750 50  0001 C CNN
-	1    7100 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5E156194
-P 6550 6500
-F 0 "#PWR0113" H 6550 6250 50  0001 C CNN
-F 1 "GND" H 6555 6327 50  0000 C CNN
-F 2 "" H 6550 6500 50  0001 C CNN
-F 3 "" H 6550 6500 50  0001 C CNN
-	1    6550 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 5E158915
-P 6000 6500
-F 0 "#PWR0114" H 6000 6250 50  0001 C CNN
-F 1 "GND" H 6005 6327 50  0000 C CNN
-F 2 "" H 6000 6500 50  0001 C CNN
-F 3 "" H 6000 6500 50  0001 C CNN
-	1    6000 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 5E159D16
-P 5450 6500
-F 0 "#PWR0115" H 5450 6250 50  0001 C CNN
-F 1 "GND" H 5455 6327 50  0000 C CNN
-F 2 "" H 5450 6500 50  0001 C CNN
-F 3 "" H 5450 6500 50  0001 C CNN
-	1    5450 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5E159DA1
-P 4900 6500
-F 0 "#PWR0116" H 4900 6250 50  0001 C CNN
-F 1 "GND" H 4905 6327 50  0000 C CNN
-F 2 "" H 4900 6500 50  0001 C CNN
-F 3 "" H 4900 6500 50  0001 C CNN
-	1    4900 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 5E15B1BF
-P 4350 6500
-F 0 "#PWR0117" H 4350 6250 50  0001 C CNN
-F 1 "GND" H 4355 6327 50  0000 C CNN
-F 2 "" H 4350 6500 50  0001 C CNN
-F 3 "" H 4350 6500 50  0001 C CNN
-	1    4350 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0118
-U 1 1 5E15C5E9
-P 3800 6500
-F 0 "#PWR0118" H 3800 6250 50  0001 C CNN
-F 1 "GND" H 3805 6327 50  0000 C CNN
-F 2 "" H 3800 6500 50  0001 C CNN
-F 3 "" H 3800 6500 50  0001 C CNN
-	1    3800 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 5E15EDD1
-P 3250 6500
-F 0 "#PWR0119" H 3250 6250 50  0001 C CNN
-F 1 "GND" H 3255 6327 50  0000 C CNN
-F 2 "" H 3250 6500 50  0001 C CNN
-F 3 "" H 3250 6500 50  0001 C CNN
-	1    3250 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0120
-U 1 1 5E15EE50
-P 2700 6500
-F 0 "#PWR0120" H 2700 6250 50  0001 C CNN
-F 1 "GND" H 2705 6327 50  0000 C CNN
-F 2 "" H 2700 6500 50  0001 C CNN
-F 3 "" H 2700 6500 50  0001 C CNN
-	1    2700 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0121
-U 1 1 5E16029E
-P 2150 6500
-F 0 "#PWR0121" H 2150 6250 50  0001 C CNN
-F 1 "GND" H 2155 6327 50  0000 C CNN
-F 2 "" H 2150 6500 50  0001 C CNN
-F 3 "" H 2150 6500 50  0001 C CNN
-	1    2150 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5E1616F3
-P 1600 6500
-F 0 "#PWR0122" H 1600 6250 50  0001 C CNN
-F 1 "GND" H 1605 6327 50  0000 C CNN
-F 2 "" H 1600 6500 50  0001 C CNN
-F 3 "" H 1600 6500 50  0001 C CNN
-	1    1600 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 5E163F3B
-P 1600 7250
-F 0 "#PWR0123" H 1600 7000 50  0001 C CNN
-F 1 "GND" H 1605 7077 50  0000 C CNN
-F 2 "" H 1600 7250 50  0001 C CNN
-F 3 "" H 1600 7250 50  0001 C CNN
-	1    1600 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5E1653A8
-P 2150 7250
-F 0 "#PWR0124" H 2150 7000 50  0001 C CNN
-F 1 "GND" H 2155 7077 50  0000 C CNN
-F 2 "" H 2150 7250 50  0001 C CNN
-F 3 "" H 2150 7250 50  0001 C CNN
-	1    2150 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 5E16683E
-P 2700 7250
-F 0 "#PWR0125" H 2700 7000 50  0001 C CNN
-F 1 "GND" H 2705 7077 50  0000 C CNN
-F 2 "" H 2700 7250 50  0001 C CNN
-F 3 "" H 2700 7250 50  0001 C CNN
-	1    2700 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 5E1668BD
-P 3250 7250
-F 0 "#PWR0126" H 3250 7000 50  0001 C CNN
-F 1 "GND" H 3255 7077 50  0000 C CNN
-F 2 "" H 3250 7250 50  0001 C CNN
-F 3 "" H 3250 7250 50  0001 C CNN
-	1    3250 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0127
-U 1 1 5E167D53
-P 3800 7250
-F 0 "#PWR0127" H 3800 7000 50  0001 C CNN
-F 1 "GND" H 3805 7077 50  0000 C CNN
-F 2 "" H 3800 7250 50  0001 C CNN
-F 3 "" H 3800 7250 50  0001 C CNN
-	1    3800 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0128
-U 1 1 5E1691F5
-P 4350 7250
-F 0 "#PWR0128" H 4350 7000 50  0001 C CNN
-F 1 "GND" H 4355 7077 50  0000 C CNN
-F 2 "" H 4350 7250 50  0001 C CNN
-F 3 "" H 4350 7250 50  0001 C CNN
-	1    4350 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0129
-U 1 1 5E16BACD
-P 4900 7250
-F 0 "#PWR0129" H 4900 7000 50  0001 C CNN
-F 1 "GND" H 4905 7077 50  0000 C CNN
-F 2 "" H 4900 7250 50  0001 C CNN
-F 3 "" H 4900 7250 50  0001 C CNN
-	1    4900 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0130
-U 1 1 5E16BB58
-P 5450 7250
-F 0 "#PWR0130" H 5450 7000 50  0001 C CNN
-F 1 "GND" H 5455 7077 50  0000 C CNN
-F 2 "" H 5450 7250 50  0001 C CNN
-F 3 "" H 5450 7250 50  0001 C CNN
-	1    5450 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0131
-U 1 1 5E16D01E
-P 6000 7250
-F 0 "#PWR0131" H 6000 7000 50  0001 C CNN
-F 1 "GND" H 6005 7077 50  0000 C CNN
-F 2 "" H 6000 7250 50  0001 C CNN
-F 3 "" H 6000 7250 50  0001 C CNN
-	1    6000 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0132
-U 1 1 5E16E4F0
-P 6550 7250
-F 0 "#PWR0132" H 6550 7000 50  0001 C CNN
-F 1 "GND" H 6555 7077 50  0000 C CNN
-F 2 "" H 6550 7250 50  0001 C CNN
-F 3 "" H 6550 7250 50  0001 C CNN
-	1    6550 7250
-	1    0    0    -1  
-$EndComp
+Text Label 10800 5350 0    50   ~ 0
+RESET
 Wire Wire Line
-	6550 7250 6450 7250
+	8950 5400 9050 5400
 Wire Wire Line
-	6550 6500 6450 6500
+	9050 5400 9050 5450
+Connection ~ 9050 5400
 Wire Wire Line
-	7100 5750 7000 5750
-Wire Wire Line
-	6550 5750 6450 5750
-Wire Wire Line
-	6000 5750 5900 5750
-Wire Wire Line
-	5450 5750 5350 5750
-Wire Wire Line
-	4900 5750 4800 5750
-Wire Wire Line
-	4350 5750 4250 5750
-Wire Wire Line
-	3800 5750 3700 5750
-Wire Wire Line
-	3250 5750 3150 5750
-Wire Wire Line
-	6000 6500 5900 6500
-Wire Wire Line
-	5450 6500 5350 6500
-Wire Wire Line
-	4900 6500 4800 6500
-Wire Wire Line
-	4350 6500 4250 6500
-Wire Wire Line
-	3800 6500 3700 6500
-Wire Wire Line
-	3250 6500 3150 6500
-Wire Wire Line
-	2700 6500 2600 6500
-Wire Wire Line
-	2150 6500 2050 6500
-Wire Wire Line
-	1600 6500 1500 6500
-Wire Wire Line
-	1500 7250 1600 7250
-Wire Wire Line
-	2050 7250 2150 7250
-Wire Wire Line
-	2600 7250 2700 7250
-Wire Wire Line
-	3150 7250 3250 7250
-Wire Wire Line
-	3700 7250 3800 7250
-Wire Wire Line
-	6000 7250 5900 7250
-Wire Wire Line
-	5450 7250 5350 7250
-Wire Wire Line
-	4900 7250 4800 7250
-Wire Wire Line
-	4350 7250 4250 7250
-$Comp
-L power:GND #PWR0133
-U 1 1 5E296AA6
-P 8500 5150
-F 0 "#PWR0133" H 8500 4900 50  0001 C CNN
-F 1 "GND" V 8505 5022 50  0000 R CNN
-F 2 "" H 8500 5150 50  0001 C CNN
-F 3 "" H 8500 5150 50  0001 C CNN
-	1    8500 5150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	650  6050 650  6800
-Connection ~ 650  6050
-Wire Wire Line
-	1200 7550 650  7550
-Connection ~ 1200 7550
-Connection ~ 650  7550
-Wire Wire Line
-	650  7550 650  7700
-Wire Wire Line
-	1200 6800 650  6800
-Connection ~ 1200 6800
-Connection ~ 650  6800
-Wire Wire Line
-	650  6800 650  7550
-$Comp
-L Device:LED D133
-U 1 1 5E5FA148
-P 850 3800
-F 0 "D133" H 843 4016 50  0000 C CNN
-F 1 "LED" H 843 3925 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 850 3800 50  0001 C CNN
-F 3 "~" H 850 3800 50  0001 C CNN
-	1    850  3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 5E5FA15F
-P 1100 3800
-F 0 "#PWR0134" H 1100 3550 50  0001 C CNN
-F 1 "GND" H 1105 3627 50  0000 C CNN
-F 2 "" H 1100 3800 50  0001 C CNN
-F 3 "" H 1100 3800 50  0001 C CNN
-	1    1100 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 3800 1100 3800
-Wire Wire Line
-	2300 3800 2400 3800
-Wire Wire Line
-	1650 3800 1750 3800
-$Comp
-L power:GND #PWR0135
-U 1 1 5E5FA16B
-P 2400 3800
-F 0 "#PWR0135" H 2400 3550 50  0001 C CNN
-F 1 "GND" H 2405 3627 50  0000 C CNN
-F 2 "" H 2400 3800 50  0001 C CNN
-F 3 "" H 2400 3800 50  0001 C CNN
-	1    2400 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0136
-U 1 1 5E5FA165
-P 1750 3800
-F 0 "#PWR0136" H 1750 3550 50  0001 C CNN
-F 1 "GND" H 1755 3627 50  0000 C CNN
-F 2 "" H 1750 3800 50  0001 C CNN
-F 3 "" H 1750 3800 50  0001 C CNN
-	1    1750 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R135
-U 1 1 5E5FA154
-P 2000 3950
-F 0 "R135" H 2070 3996 50  0000 L CNN
-F 1 "300" H 2070 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1930 3950 50  0001 C CNN
-F 3 "~" H 2000 3950 50  0001 C CNN
-	1    2000 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D135
-U 1 1 5E5FA14E
-P 2150 3800
-F 0 "D135" H 2143 4016 50  0000 C CNN
-F 1 "LED" H 2143 3925 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 2150 3800 50  0001 C CNN
-F 3 "~" H 2150 3800 50  0001 C CNN
-	1    2150 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R134
-U 1 1 5E5FA142
-P 1350 3950
-F 0 "R134" H 1420 3996 50  0000 L CNN
-F 1 "300" H 1420 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 3950 50  0001 C CNN
-F 3 "~" H 1350 3950 50  0001 C CNN
-	1    1350 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D134
-U 1 1 5E5FA136
-P 1500 3800
-F 0 "D134" H 1493 4016 50  0000 C CNN
-F 1 "LED" H 1493 3925 50  0000 C CNN
-F 2 "keebs-github:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1500 3800 50  0001 C CNN
-F 3 "~" H 1500 3800 50  0001 C CNN
-	1    1500 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R133
-U 1 1 5E5FA13C
-P 700 3950
-F 0 "R133" H 770 3996 50  0000 L CNN
-F 1 "300" H 770 3905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 630 3950 50  0001 C CNN
-F 3 "~" H 700 3950 50  0001 C CNN
-	1    700  3950
-	1    0    0    -1  
-$EndComp
-Text Label 700  4100 3    50   ~ 0
-AUX_LED_VCC_A
-Text Label 1350 4100 3    50   ~ 0
-AUX_LED_VCC_B
-Text Label 2000 4100 3    50   ~ 0
-AUX_LED_VCC_C
+	9050 5350 9050 5400
 $Comp
 L power:+5V #PWR0138
 U 1 1 5E67E967
-P 10300 5200
-F 0 "#PWR0138" H 10300 5050 50  0001 C CNN
-F 1 "+5V" V 10315 5328 50  0000 L CNN
-F 2 "" H 10300 5200 50  0001 C CNN
-F 3 "" H 10300 5200 50  0001 C CNN
-	1    10300 5200
+P 10750 5450
+F 0 "#PWR0138" H 10750 5300 50  0001 C CNN
+F 1 "+5V" V 10765 5578 50  0000 L CNN
+F 2 "" H 10750 5450 50  0001 C CNN
+F 3 "" H 10750 5450 50  0001 C CNN
+	1    10750 5450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8600 5100 8600 5150
-Connection ~ 8600 5150
-Wire Wire Line
-	8600 5150 8600 5200
-Wire Wire Line
-	8500 5150 8600 5150
 $Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5E676B60
-P 700 2750
-F 0 "J1" H 618 2425 50  0000 C CNN
-F 1 "Conn_01x02" H 618 2516 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 700 2750 50  0001 C CNN
-F 3 "~" H 700 2750 50  0001 C CNN
-	1    700  2750
+L power:GND #PWR0133
+U 1 1 5E296AA6
+P 8800 5050
+F 0 "#PWR0133" H 8800 4800 50  0001 C CNN
+F 1 "GND" V 8805 4922 50  0000 R CNN
+F 2 "" H 8800 5050 50  0001 C CNN
+F 3 "" H 8800 5050 50  0001 C CNN
+	1    8800 5050
+	0    1    1    0   
+$EndComp
+Text Label 9050 6250 2    50   ~ 0
+col_6
+Text Label 9050 6150 2    50   ~ 0
+col_7
+Text Label 9050 6050 2    50   ~ 0
+col_8
+Text Label 10450 6150 0    50   ~ 0
+BACKLIGHT_PWM
+Text Label 10450 6250 0    50   ~ 0
+row_3
+Text Label 10450 6050 0    50   ~ 0
+col_0
+Text Label 10450 5950 0    50   ~ 0
+col_1
+Text Label 10450 5850 0    50   ~ 0
+col_2
+Text Label 10450 5750 0    50   ~ 0
+col_3
+Text Label 10450 5650 0    50   ~ 0
+col_4
+Text Label 10450 5550 0    50   ~ 0
+col_5
+Text Label 9050 5950 2    50   ~ 0
+col_9
+Text Label 9050 5850 2    50   ~ 0
+col_10
+Text Label 9050 5750 2    50   ~ 0
+col_11
+Text Label 9050 5650 2    50   ~ 0
+col_12
+Text Label 9050 5550 2    50   ~ 0
+row_0
+Text Label 9050 5250 2    50   ~ 0
+row_1
+Text Label 9050 5150 2    50   ~ 0
+row_2
+Wire Wire Line
+	10450 5450 10750 5450
+$Comp
+L promicro:ProMicro U1
+U 1 1 5DE4A2F9
+P 9750 5900
+F 0 "U1" H 9750 6937 60  0000 C CNN
+F 1 "ProMicro" H 9750 6831 60  0000 C CNN
+F 2 "keebs-github:Pro_Micro" H 9850 4850 60  0001 C CNN
+F 3 "" H 9850 4850 60  0000 C CNN
+	1    9750 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10450 5150
+$Comp
+L Transistor_FET:FDS6630A Q1
+U 1 1 5E7E3FDF
+P 5500 7400
+F 0 "Q1" H 5250 7650 50  0000 L CNN
+F 1 "FDS6630A" H 5100 7550 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 7300 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf" H 5400 7400 50  0001 L CNN
+	1    5500 7400
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0137
-U 1 1 5E67D7FA
-P 900 2650
-F 0 "#PWR0137" H 900 2400 50  0001 C CNN
-F 1 "GND" V 905 2522 50  0000 R CNN
-F 2 "" H 900 2650 50  0001 C CNN
-F 3 "" H 900 2650 50  0001 C CNN
-	1    900  2650
+L Device:R R2
+U 1 1 5E7E3FE8
+P 6050 7150
+F 0 "R2" H 5900 7200 50  0000 C CNN
+F 1 "100" H 5900 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 7150 50  0001 C CNN
+F 3 "~" H 6050 7150 50  0001 C CNN
+	1    6050 7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 7000 5400 6900
+Connection ~ 5400 7000
+Wire Wire Line
+	5700 7000 5400 7000
+Wire Wire Line
+	5700 7300 5700 7400
+$Comp
+L power:GND #PWR0106
+U 1 1 5E7E3FF3
+P 5400 6900
+F 0 "#PWR0106" H 5400 6650 50  0001 C CNN
+F 1 "GND" H 5405 6727 50  0000 C CNN
+F 2 "" H 5400 6900 50  0001 C CNN
+F 3 "" H 5400 6900 50  0001 C CNN
+	1    5400 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 7200 5400 7000
+$Comp
+L Device:R R1
+U 1 1 5E7E3FFA
+P 5700 7150
+F 0 "R1" H 5630 7104 50  0000 R CNN
+F 1 "10K" H 5630 7195 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 7150 50  0001 C CNN
+F 3 "~" H 5700 7150 50  0001 C CNN
+	1    5700 7150
+	-1   0    0    1   
+$EndComp
+Text Notes 7000 6750 0    50   ~ 0
+Note:\nLED Backlighting is only present on the alpha keys
+Wire Wire Line
+	5150 6000 5150 6800
+Wire Wire Line
+	6050 7300 6050 7400
+Wire Wire Line
+	6050 6750 6050 7000
+Wire Wire Line
+	5400 7600 5150 7600
+Connection ~ 5150 7600
+Text Label 1250 3100 2    50   ~ 0
+LED_CAPSLOCK
+$Comp
+L Device:R R154
+U 1 1 5E966A6A
+P 1400 3100
+F 0 "R154" V 1300 3000 50  0000 L CNN
+F 1 "300" V 1500 3000 50  0000 L CNN
+F 2 "wombat.pretty:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_Double_Sided" V 1330 3100 50  0001 C CNN
+F 3 "~" H 1400 3100 50  0001 C CNN
+	1    1400 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D154
+U 1 1 5E966A70
+P 1700 3100
+F 0 "D154" H 1700 3200 50  0000 C CNN
+F 1 "LED" H 1700 3000 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1700 3100 50  0001 C CNN
+F 3 "~" H 1700 3100 50  0001 C CNN
+	1    1700 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E966A76
+P 1950 3100
+F 0 "#PWR0107" H 1950 2850 50  0001 C CNN
+F 1 "GND" V 1955 2972 50  0000 R CNN
+F 2 "" H 1950 3100 50  0001 C CNN
+F 3 "" H 1950 3100 50  0001 C CNN
+	1    1950 3100
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1850 3100 1950 3100
+Text Label 6050 6750 0    50   ~ 0
+BACKLIGHT_PWM
 $Comp
-L power:+5V #PWR0139
-U 1 1 5E680455
-P 900 2750
-F 0 "#PWR0139" H 900 2600 50  0001 C CNN
-F 1 "+5V" V 915 2878 50  0000 L CNN
-F 2 "" H 900 2750 50  0001 C CNN
-F 3 "" H 900 2750 50  0001 C CNN
-	1    900  2750
-	0    1    1    0   
+L Mechanical:MountingHole H1
+U 1 1 5E9C53B5
+P 600 600
+F 0 "H1" H 700 646 50  0000 L CNN
+F 1 "MountingHole" H 700 555 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 600 600 50  0001 C CNN
+F 3 "~" H 600 600 50  0001 C CNN
+	1    600  600 
+	1    0    0    -1  
 $EndComp
-Text Label 900  3400 0    50   ~ 0
-AUX_LED_VCC_C
-Text Label 900  3300 0    50   ~ 0
-AUX_LED_VCC_B
-Text Label 900  3200 0    50   ~ 0
-AUX_LED_VCC_A
 $Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 5E631845
-P 700 3300
-F 0 "J2" H 618 2975 50  0000 C CNN
-F 1 "Conn_01x03" H 618 3066 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P3.81mm_Drill1.2mm" H 700 3300 50  0001 C CNN
-F 3 "~" H 700 3300 50  0001 C CNN
-	1    700  3300
-	-1   0    0    1   
+L Mechanical:MountingHole H7
+U 1 1 5E9DA302
+P 600 1000
+F 0 "H7" H 700 1046 50  0000 L CNN
+F 1 "MountingHole" H 700 955 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 600 1000 50  0001 C CNN
+F 3 "~" H 600 1000 50  0001 C CNN
+	1    600  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E9E8F66
+P 1400 600
+F 0 "H2" H 1500 646 50  0000 L CNN
+F 1 "MountingHole" H 1500 555 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 1400 600 50  0001 C CNN
+F 3 "~" H 1400 600 50  0001 C CNN
+	1    1400 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5E9E8F6C
+P 1400 800
+F 0 "H5" H 1500 846 50  0000 L CNN
+F 1 "MountingHole" H 1500 755 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 1400 800 50  0001 C CNN
+F 3 "~" H 1400 800 50  0001 C CNN
+	1    1400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5E9E8F72
+P 1400 1000
+F 0 "H8" H 1500 1046 50  0000 L CNN
+F 1 "MountingHole" H 1500 955 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 1400 1000 50  0001 C CNN
+F 3 "~" H 1400 1000 50  0001 C CNN
+	1    1400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5EA100AF
+P 2200 600
+F 0 "H3" H 2300 646 50  0000 L CNN
+F 1 "MountingHole" H 2300 555 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 2200 600 50  0001 C CNN
+F 3 "~" H 2200 600 50  0001 C CNN
+	1    2200 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5EA100B5
+P 2200 800
+F 0 "H6" H 2300 846 50  0000 L CNN
+F 1 "MountingHole" H 2300 755 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 2200 800 50  0001 C CNN
+F 3 "~" H 2200 800 50  0001 C CNN
+	1    2200 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5EA100BB
+P 2200 1000
+F 0 "H9" H 2300 1046 50  0000 L CNN
+F 1 "MountingHole" H 2300 955 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 2200 1000 50  0001 C CNN
+F 3 "~" H 2200 1000 50  0001 C CNN
+	1    2200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5EA100C7
+P 600 1200
+F 0 "H10" H 700 1246 50  0000 L CNN
+F 1 "MountingHole" H 700 1155 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 600 1200 50  0001 C CNN
+F 3 "~" H 600 1200 50  0001 C CNN
+	1    600  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5EA100CD
+P 1400 1200
+F 0 "H11" H 1500 1246 50  0000 L CNN
+F 1 "MountingHole" H 1500 1155 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 1400 1200 50  0001 C CNN
+F 3 "~" H 1400 1200 50  0001 C CNN
+	1    1400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2050 2300 2400
+Wire Wire Line
+	2300 2400 2300 2750
+Connection ~ 2300 2400
+Wire Wire Line
+	5700 7400 6050 7400
+Connection ~ 5700 7400
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 5F20E256
+P 2200 1200
+F 0 "H12" H 2300 1246 50  0000 L CNN
+F 1 "MountingHole" H 2300 1155 50  0000 L CNN
+F 2 "wombat.pretty:MountingHole_2.2mm_M2_DIN965_Pad_Oval" H 2200 1200 50  0001 C CNN
+F 3 "~" H 2200 1200 50  0001 C CNN
+	1    2200 1200
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
