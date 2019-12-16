@@ -5,7 +5,7 @@ The Wombat is my 40% daily driver that I've been using for 3+ years.
 ![RevB Assembled](img/revb/IMG_20191216_093514.jpg)
 ![RevC Front- Render](img/revc/wombat_render_front.png)
 ![RevC Back - Render](img/revc/wombat_render_back.png)
-![RevC Back - Kicad(img/revc/wombat_pcb_back.png)
+![RevC Back - Kicad](img/revc/wombat_pcb_back.png)
 
 ### Project Goals
 - Open source design. It was important that I use an open source EDA too.
