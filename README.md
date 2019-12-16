@@ -90,6 +90,10 @@ If you choose to make a back from an extra pcb you'll need:
 - [QMK](https://github.com/egladman/qmk_firmware/tree/wombat-support/keyboards/wombat).
 - [TMK](https://github.com/egladman/wombat-tmk). My TMK fork is super old, and is only here for archival purposes. Use QMK.
 
+### Dependencies
+
+[keebs.pretty](https://github.com/egladman/keebs.pretty)
+
 ### License
 
 [CERN Open Hardware Licence v1.2 ](https://github.com/egladman/wombat-pcb/blob/revc/LICENSE)
