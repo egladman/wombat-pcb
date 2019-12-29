@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L Switch:SW_Push SW101
 U 1 1 5DF28FEF
-P 9750 4550
-F 0 "SW101" H 9900 4450 50  0000 R CNN
-F 1 "SW_Push" H 9900 4350 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQP0" H 9750 4750 50  0001 C CNN
-F 3 "~" H 9750 4750 50  0001 C CNN
-	1    9750 4550
+P 7450 4800
+F 0 "SW101" H 7600 4700 50  0000 R CNN
+F 1 "SW_Push" H 7600 4600 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQP0" H 7450 5000 50  0001 C CNN
+F 3 "~" H 7450 5000 50  0001 C CNN
+	1    7450 4800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1432,11 +1432,11 @@ F 3 "~" H 9250 3550 50  0001 C CNN
 	1    9250 3550
 	1    0    0    -1  
 $EndComp
-Text Label 7600 5900 0    50   ~ 0
+Text Label 7150 5700 0    50   ~ 0
 LED_LAYER_INDICATOR_3
-Text Label 7600 5800 0    50   ~ 0
+Text Label 7150 5600 0    50   ~ 0
 LED_LAYER_INDICATOR_2
-Text Label 7600 5700 0    50   ~ 0
+Text Label 7150 5500 0    50   ~ 0
 LED_LAYER_INDICATOR_1
 $Comp
 L Device:LED D101
@@ -1529,13 +1529,13 @@ $EndComp
 $Comp
 L power:+5V #PWR0101
 U 1 1 5DFE5F3F
-P 700 7400
-F 0 "#PWR0101" H 700 7250 50  0001 C CNN
-F 1 "+5V" H 715 7573 50  0000 C CNN
-F 2 "" H 700 7400 50  0001 C CNN
-F 3 "" H 700 7400 50  0001 C CNN
-	1    700  7400
-	-1   0    0    1   
+P 700 5250
+F 0 "#PWR0101" H 700 5100 50  0001 C CNN
+F 1 "+5V" H 715 5423 50  0000 C CNN
+F 2 "" H 700 5250 50  0001 C CNN
+F 3 "" H 700 5250 50  0001 C CNN
+	1    700  5250
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D105
@@ -2347,21 +2347,18 @@ Wire Wire Line
 	5150 6800 5150 7600
 Wire Wire Line
 	4500 7600 5150 7600
-Wire Wire Line
-	700  7000 700  7400
-Connection ~ 700  7000
 $Comp
 L power:GND #PWR0102
 U 1 1 5E3C8BAB
-P 9950 4550
-F 0 "#PWR0102" H 9950 4300 50  0001 C CNN
-F 1 "GND" V 9955 4422 50  0000 R CNN
-F 2 "" H 9950 4550 50  0001 C CNN
-F 3 "" H 9950 4550 50  0001 C CNN
-	1    9950 4550
-	0    -1   -1   0   
+P 7750 4900
+F 0 "#PWR0102" H 7750 4650 50  0001 C CNN
+F 1 "GND" H 7850 4750 50  0000 R CNN
+F 2 "" H 7750 4900 50  0001 C CNN
+F 3 "" H 7750 4900 50  0001 C CNN
+	1    7750 4900
+	1    0    0    -1  
 $EndComp
-Text Label 9550 4550 2    50   ~ 0
+Text Label 7250 4800 2    50   ~ 0
 RESET
 $Comp
 L Device:LED D153
@@ -2438,13 +2435,13 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5E514769
-P 2300 2050
-F 0 "#PWR0103" H 2300 1800 50  0001 C CNN
-F 1 "GND" V 2305 1922 50  0000 R CNN
-F 2 "" H 2300 2050 50  0001 C CNN
-F 3 "" H 2300 2050 50  0001 C CNN
-	1    2300 2050
-	0    -1   -1   0   
+P 2300 2900
+F 0 "#PWR0103" H 2300 2650 50  0001 C CNN
+F 1 "GND" H 2400 2750 50  0000 R CNN
+F 2 "" H 2300 2900 50  0001 C CNN
+F 3 "" H 2300 2900 50  0001 C CNN
+	1    2300 2900
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2200 2050 2300 2050
@@ -2452,219 +2449,121 @@ Wire Wire Line
 	2300 2750 2200 2750
 Wire Wire Line
 	2200 2400 2300 2400
-Text Label 7600 6000 0    50   ~ 0
+Text Label 7150 5800 0    50   ~ 0
 LED_CAPSLOCK
-Text Label 7600 6100 0    50   ~ 0
+Text Label 7150 5900 0    50   ~ 0
 LED_WASD
-Connection ~ 2300 2050
 $Comp
 L Connector_Generic:Conn_01x05 J1
 U 1 1 5E645FAA
-P 7400 5900
-F 0 "J1" H 7318 5475 50  0000 C CNN
-F 1 "Conn_01x05" H 7318 5566 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical" H 7400 5900 50  0001 C CNN
-F 3 "~" H 7400 5900 50  0001 C CNN
-	1    7400 5900
+P 6950 5700
+F 0 "J1" H 6868 5275 50  0000 C CNN
+F 1 "Conn_01x05" H 6868 5366 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical" H 6950 5700 50  0001 C CNN
+F 3 "~" H 6950 5700 50  0001 C CNN
+	1    6950 5700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10450 5350 10800 5350
-$Comp
-L power:GND #PWR0105
-U 1 1 5E3CD1B3
-P 10450 5250
-F 0 "#PWR0105" H 10450 5000 50  0001 C CNN
-F 1 "GND" V 10455 5122 50  0000 R CNN
-F 2 "" H 10450 5250 50  0001 C CNN
-F 3 "" H 10450 5250 50  0001 C CNN
-	1    10450 5250
-	0    -1   -1   0   
-$EndComp
-Text Label 10800 5350 0    50   ~ 0
+Text Label 10450 5000 0    50   ~ 0
 RESET
-Wire Wire Line
-	8950 5400 9050 5400
-Wire Wire Line
-	9050 5400 9050 5450
-Connection ~ 9050 5400
-Wire Wire Line
-	9050 5350 9050 5400
 $Comp
 L power:+5V #PWR0138
 U 1 1 5E67E967
-P 10750 5450
-F 0 "#PWR0138" H 10750 5300 50  0001 C CNN
-F 1 "+5V" V 10765 5578 50  0000 L CNN
-F 2 "" H 10750 5450 50  0001 C CNN
-F 3 "" H 10750 5450 50  0001 C CNN
-	1    10750 5450
-	0    1    1    0   
+P 10900 5100
+F 0 "#PWR0138" H 10900 4950 50  0001 C CNN
+F 1 "+5V" H 10800 5250 50  0000 L CNN
+F 2 "" H 10900 5100 50  0001 C CNN
+F 3 "" H 10900 5100 50  0001 C CNN
+	1    10900 5100
+	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0133
-U 1 1 5E296AA6
-P 8800 5050
-F 0 "#PWR0133" H 8800 4800 50  0001 C CNN
-F 1 "GND" V 8805 4922 50  0000 R CNN
-F 2 "" H 8800 5050 50  0001 C CNN
-F 3 "" H 8800 5050 50  0001 C CNN
-	1    8800 5050
-	0    1    1    0   
-$EndComp
-Text Label 9050 6250 2    50   ~ 0
+Text Label 9050 5900 2    50   ~ 0
 col_6
-Text Label 9050 6150 2    50   ~ 0
+Text Label 9050 5800 2    50   ~ 0
 col_7
-Text Label 9050 6050 2    50   ~ 0
+Text Label 9050 5700 2    50   ~ 0
 col_8
-Text Label 10450 6150 0    50   ~ 0
+Text Label 10450 5800 0    50   ~ 0
 BACKLIGHT_PWM
-Text Label 10450 6250 0    50   ~ 0
+Text Label 10450 5900 0    50   ~ 0
 row_3
-Text Label 10450 6050 0    50   ~ 0
+Text Label 10450 5700 0    50   ~ 0
 col_0
-Text Label 10450 5950 0    50   ~ 0
+Text Label 10450 5600 0    50   ~ 0
 col_1
-Text Label 10450 5850 0    50   ~ 0
+Text Label 10450 5500 0    50   ~ 0
 col_2
-Text Label 10450 5750 0    50   ~ 0
+Text Label 10450 5400 0    50   ~ 0
 col_3
-Text Label 10450 5650 0    50   ~ 0
+Text Label 10450 5300 0    50   ~ 0
 col_4
-Text Label 10450 5550 0    50   ~ 0
+Text Label 10450 5200 0    50   ~ 0
 col_5
-Text Label 9050 5950 2    50   ~ 0
+Text Label 9050 5600 2    50   ~ 0
 col_9
-Text Label 9050 5850 2    50   ~ 0
+Text Label 9050 5500 2    50   ~ 0
 col_10
-Text Label 9050 5750 2    50   ~ 0
+Text Label 9050 5400 2    50   ~ 0
 col_11
-Text Label 9050 5650 2    50   ~ 0
+Text Label 9050 5300 2    50   ~ 0
 col_12
-Text Label 9050 5550 2    50   ~ 0
+Text Label 9050 5200 2    50   ~ 0
 row_0
-Text Label 9050 5250 2    50   ~ 0
+Text Label 9050 4900 2    50   ~ 0
 row_1
-Text Label 9050 5150 2    50   ~ 0
+Text Label 9050 4800 2    50   ~ 0
 row_2
-Wire Wire Line
-	10450 5450 10750 5450
 $Comp
 L promicro:ProMicro U1
 U 1 1 5DE4A2F9
-P 9750 5900
-F 0 "U1" H 9750 6937 60  0000 C CNN
-F 1 "ProMicro" H 9750 6831 60  0000 C CNN
-F 2 "keebs-github:Pro_Micro" H 9850 4850 60  0001 C CNN
-F 3 "" H 9850 4850 60  0000 C CNN
-	1    9750 5900
+P 9750 5550
+F 0 "U1" H 9750 6587 60  0000 C CNN
+F 1 "ProMicro" H 9750 6481 60  0000 C CNN
+F 2 "keebs-github:Pro_Micro" H 9850 4500 60  0001 C CNN
+F 3 "" H 9850 4500 60  0000 C CNN
+	1    9750 5550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10450 5150
-$Comp
-L Transistor_FET:FDS6630A Q1
-U 1 1 5E7E3FDF
-P 5500 7400
-F 0 "Q1" H 5250 7650 50  0000 L CNN
-F 1 "FDS6630A" H 5100 7550 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 7300 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf" H 5400 7400 50  0001 L CNN
-	1    5500 7400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5E7E3FE8
-P 6050 7150
-F 0 "R2" H 5900 7200 50  0000 C CNN
-F 1 "100" H 5900 7100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 7150 50  0001 C CNN
-F 3 "~" H 6050 7150 50  0001 C CNN
-	1    6050 7150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5400 7000 5400 6900
-Connection ~ 5400 7000
-Wire Wire Line
-	5700 7000 5400 7000
-Wire Wire Line
-	5700 7300 5700 7400
-$Comp
-L power:GND #PWR0106
-U 1 1 5E7E3FF3
-P 5400 6900
-F 0 "#PWR0106" H 5400 6650 50  0001 C CNN
-F 1 "GND" H 5405 6727 50  0000 C CNN
-F 2 "" H 5400 6900 50  0001 C CNN
-F 3 "" H 5400 6900 50  0001 C CNN
-	1    5400 6900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5400 7200 5400 7000
-$Comp
-L Device:R R1
-U 1 1 5E7E3FFA
-P 5700 7150
-F 0 "R1" H 5630 7104 50  0000 R CNN
-F 1 "10K" H 5630 7195 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 7150 50  0001 C CNN
-F 3 "~" H 5700 7150 50  0001 C CNN
-	1    5700 7150
-	-1   0    0    1   
-$EndComp
+NoConn ~ 10450 4800
 Text Notes 7000 6750 0    50   ~ 0
 Note:\nLED Backlighting is only present on the alpha keys
 Wire Wire Line
 	5150 6000 5150 6800
-Wire Wire Line
-	6050 7300 6050 7400
-Wire Wire Line
-	6050 6750 6050 7000
-Wire Wire Line
-	5400 7600 5150 7600
-Connection ~ 5150 7600
-Text Label 1250 3100 2    50   ~ 0
+Text Label 1250 3300 2    50   ~ 0
 LED_CAPSLOCK
 $Comp
 L Device:R R154
 U 1 1 5E966A6A
-P 1400 3100
-F 0 "R154" V 1300 3000 50  0000 L CNN
-F 1 "300" V 1500 3000 50  0000 L CNN
-F 2 "wombat.pretty:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_Double_Sided" V 1330 3100 50  0001 C CNN
-F 3 "~" H 1400 3100 50  0001 C CNN
-	1    1400 3100
+P 1400 3300
+F 0 "R154" V 1300 3200 50  0000 L CNN
+F 1 "300" V 1500 3200 50  0000 L CNN
+F 2 "wombat.pretty:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder_Double_Sided" V 1330 3300 50  0001 C CNN
+F 3 "~" H 1400 3300 50  0001 C CNN
+	1    1400 3300
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D154
 U 1 1 5E966A70
-P 1700 3100
-F 0 "D154" H 1700 3200 50  0000 C CNN
-F 1 "LED" H 1700 3000 50  0000 C CNN
-F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1700 3100 50  0001 C CNN
-F 3 "~" H 1700 3100 50  0001 C CNN
-	1    1700 3100
+P 1700 3300
+F 0 "D154" H 1700 3400 50  0000 C CNN
+F 1 "LED" H 1700 3200 50  0000 C CNN
+F 2 "wombat.pretty:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop_Reverse_Polarity" H 1700 3300 50  0001 C CNN
+F 3 "~" H 1700 3300 50  0001 C CNN
+	1    1700 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5E966A76
-P 1950 3100
-F 0 "#PWR0107" H 1950 2850 50  0001 C CNN
-F 1 "GND" V 1955 2972 50  0000 R CNN
-F 2 "" H 1950 3100 50  0001 C CNN
-F 3 "" H 1950 3100 50  0001 C CNN
-	1    1950 3100
-	0    -1   -1   0   
+P 2300 3450
+F 0 "#PWR0107" H 2300 3200 50  0001 C CNN
+F 1 "GND" H 2400 3300 50  0000 R CNN
+F 2 "" H 2300 3450 50  0001 C CNN
+F 3 "" H 2300 3450 50  0001 C CNN
+	1    2300 3450
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 3100 1950 3100
-Text Label 6050 6750 0    50   ~ 0
-BACKLIGHT_PWM
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E9C53B5
@@ -2780,9 +2679,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 2400 2300 2750
 Connection ~ 2300 2400
-Wire Wire Line
-	5700 7400 6050 7400
-Connection ~ 5700 7400
 $Comp
 L Mechanical:MountingHole H12
 U 1 1 5F20E256
@@ -2794,4 +2690,130 @@ F 3 "~" H 2200 1200 50  0001 C CNN
 	1    2200 1200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8650 5100 8650 5300
+$Comp
+L power:GND #PWR?
+U 1 1 5F884A24
+P 8550 5500
+F 0 "#PWR?" H 8550 5250 50  0001 C CNN
+F 1 "GND" H 8555 5327 50  0000 C CNN
+F 2 "" H 8550 5500 50  0001 C CNN
+F 3 "" H 8550 5500 50  0001 C CNN
+	1    8550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8D13A6
+P 8650 5300
+F 0 "#PWR?" H 8650 5050 50  0001 C CNN
+F 1 "GND" H 8655 5127 50  0000 C CNN
+F 2 "" H 8650 5300 50  0001 C CNN
+F 3 "" H 8650 5300 50  0001 C CNN
+	1    8650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5100 9050 5100
+Wire Wire Line
+	9050 5000 8550 5000
+Wire Wire Line
+	8550 5000 8550 5500
+Wire Wire Line
+	10450 4900 11100 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5F974FCB
+P 11100 5000
+F 0 "#PWR?" H 11100 4750 50  0001 C CNN
+F 1 "GND" H 11105 4827 50  0000 C CNN
+F 2 "" H 11100 5000 50  0001 C CNN
+F 3 "" H 11100 5000 50  0001 C CNN
+	1    11100 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 5100 10900 5100
+Wire Wire Line
+	11100 5000 11100 4900
+Wire Wire Line
+	7650 4800 7750 4800
+Wire Wire Line
+	7750 4800 7750 4900
+Wire Wire Line
+	2300 2750 2300 2900
+Connection ~ 2300 2750
+Wire Wire Line
+	2300 3450 2300 3300
+Wire Wire Line
+	1850 3300 2300 3300
+Text Label 5500 7050 0    50   ~ 0
+BACKLIGHT_PWM
+Wire Wire Line
+	5500 7050 5500 6800
+$Comp
+L Device:R R1
+U 1 1 5E7E3FFA
+P 5850 6300
+F 0 "R1" V 5750 6350 50  0000 R CNN
+F 1 "10K" V 5650 6350 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5780 6300 50  0001 C CNN
+F 3 "~" H 5850 6300 50  0001 C CNN
+	1    5850 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E7E3FF3
+P 6200 6600
+F 0 "#PWR0106" H 6200 6350 50  0001 C CNN
+F 1 "GND" H 6205 6427 50  0000 C CNN
+F 2 "" H 6200 6600 50  0001 C CNN
+F 3 "" H 6200 6600 50  0001 C CNN
+	1    6200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E7E3FE8
+P 5500 6650
+F 0 "R2" H 5350 6700 50  0000 C CNN
+F 1 "100" H 5350 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 6650 50  0001 C CNN
+F 3 "~" H 5500 6650 50  0001 C CNN
+	1    5500 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS6630A Q1
+U 1 1 5E7E3FDF
+P 5500 6100
+F 0 "Q1" V 5850 6050 50  0000 L CNN
+F 1 "FDS6630A" V 5750 5900 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5700 6000 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf" H 5400 6100 50  0001 L CNN
+	1    5500 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 6000 5150 6000
+Connection ~ 5150 6000
+Wire Wire Line
+	6200 6000 5700 6000
+Wire Wire Line
+	5700 6300 5500 6300
+Wire Wire Line
+	6000 6300 6200 6300
+Wire Wire Line
+	6200 6300 6200 6000
+Wire Wire Line
+	5500 6300 5500 6500
+Connection ~ 5500 6300
+Wire Wire Line
+	6200 6300 6200 6600
+Connection ~ 6200 6300
+Wire Wire Line
+	700  5400 700  5250
+Connection ~ 700  5400
 $EndSCHEMATC
